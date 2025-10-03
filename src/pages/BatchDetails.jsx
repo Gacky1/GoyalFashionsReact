@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
 const BatchDetails = () => {
   const { batchId } = useParams();
   const navigate = useNavigate();
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const hsrtBatches = [
     {
@@ -210,8 +209,7 @@ const BatchDetails = () => {
               {batch.gallery.map((image, index) => (
                 <div
                   key={index}
-                  onClick={() => setCurrentImageIndex(index)}
-                  className="cursor-pointer rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                  className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                 >
                   <img
                     src={image}
