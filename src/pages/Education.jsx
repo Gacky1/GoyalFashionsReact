@@ -106,7 +106,7 @@ const Education = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96 animate-fadeInRight">
             <img 
-              src="https://aihmas.com/wp-content/uploads/2024/07/MG_47811.jpg" 
+              src="/images/Hsrt.jpg" 
               alt="Education Excellence"
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
             />
