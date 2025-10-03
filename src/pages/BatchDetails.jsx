@@ -12,7 +12,7 @@ const BatchDetails = () => {
       name: "HSRT 2018-19",
       year: "2018-19",
       date: "Aug 12, 2019",
-      headerImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=400&fit=crop",
+      headerImage: "https://www.jnujaipur.ac.in/Uploads/image/138imguf_23a5e394329e6e1af6938a708f409d1d1.webp",
       courses: [
         {
           batchNo: "MCC03",
@@ -64,11 +64,11 @@ const BatchDetails = () => {
         }
       ],
       gallery: [
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=300&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=300&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=300&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=300&h=200&fit=crop",
-        "https://images.unsplash.com/photo-1559329007-40df8a9345d8?w=300&h=200&fit=crop"
+        "https://www.jnujaipur.ac.in/Uploads/image/138imguf_23a5e394329e6e1af6938a708f409d1d1.webp",
+        "https://www.jnujaipur.ac.in/Uploads/image/140imguf_04974808ed4fc9b5d0322a77a23b018e2.webp",
+        "https://www.jnujaipur.ac.in/Uploads/image/141imguf_c4d4479ae2831105f63f137591325cfa3.webp",
+        "https://www.jnujaipur.ac.in/Uploads/image/142imguf_b3562509a2d1dea33eb2120577933ad24.webp",
+        "https://www.jnujaipur.ac.in/Uploads/image/143imguf_394f35ca3df61999d0175eb31321b4ab5.webp"
       ]
     },
     {

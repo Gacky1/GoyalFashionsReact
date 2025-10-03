@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Loader from './components/Loader';
 import Home from './pages/Home';
 import About from './pages/About';
 import Education from './pages/Education';
@@ -10,6 +11,20 @@ import Contact from './pages/Contact';
 import BatchDetails from './pages/BatchDetails';
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2500);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
+
   return (
     <Router>
       <div className="App">

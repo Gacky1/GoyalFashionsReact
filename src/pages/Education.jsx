@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Education = () => {
   const [showHSRTList, setShowHSRTList] = useState(false);
   const navigate = useNavigate();
+  const hsrtListRef = useRef(null);
+
+  useEffect(() => {
+    if (showHSRTList && hsrtListRef.current) {
+      hsrtListRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  }, [showHSRTList]);
 
   const hsrtBatches = [
     {
@@ -472,7 +479,7 @@ const Education = () => {
 
       {/* HSRT Batch List */}
       {showHSRTList && (
-        <section className="py-12 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <section ref={hsrtListRef} className="py-12 bg-gradient-to-br from-blue-50 to-indigo-100">
           <div className="max-w-4xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-center mb-8 gradient-text">HSRT Records - Ministry of Tourism</h2>
             <div className="grid gap-4">

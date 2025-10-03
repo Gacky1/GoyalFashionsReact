@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
@@ -225,4 +229,38 @@ body {
 
 .stagger-animation > * {
   animation-delay: calc(var(--stagger) * 0.1s);
+}
+
+/* Loader Animations */
+@keyframes loadingBar {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.loading-bar {
+  animation: loadingBar 2s ease-in-out infinite;
+}
+
+@keyframes loaderSpin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loader-spin {
+  animation: loaderSpin 1s linear infinite;
+}
+
+.loader-spin-reverse {
+  animation: loaderSpin 1.5s linear infinite reverse;
 }
