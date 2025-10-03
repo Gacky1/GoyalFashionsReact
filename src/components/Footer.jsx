@@ -16,16 +16,16 @@ const Footer = () => {
               India's Premier Flagship Enterprise with 40+ years of excellence across textiles, hospitality, education, and sustainable energy sectors.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
+              <a href="https://facebook.com" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="#" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
+              <a href="https://twitter.com" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="#" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
+              <a href="https://instagram.com" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="#" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
+              <a href="https://linkedin.com" className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white hover:bg-white hover:text-gray-800 transition-all duration-300 hover:scale-110 icon-bounce">
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </div>
@@ -93,13 +93,13 @@ const Footer = () => {
               &copy; 2025 All Rights Reserved by Goyal Fashions Pvt. Ltd, Jaipur.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-white/80 hover:text-white transition-colors duration-300">
+              <a href="https://example.com/privacy" className="text-white/80 hover:text-white transition-colors duration-300">
                 Privacy Policy
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors duration-300">
+              <a href="https://example.com/terms" className="text-white/80 hover:text-white transition-colors duration-300">
                 Terms of Service
               </a>
-              <a href="#" className="text-white/80 hover:text-white transition-colors duration-300">
+              <a href="https://example.com/sitemap" className="text-white/80 hover:text-white transition-colors duration-300">
                 Sitemap
               </a>
             </div>

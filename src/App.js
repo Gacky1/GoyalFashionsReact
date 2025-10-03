@@ -9,6 +9,7 @@ import Education from './pages/Education';
 import Employment from './pages/Employment';
 import Contact from './pages/Contact';
 import BatchDetails from './pages/BatchDetails';
+import NotFound from './pages/NotFound';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/employment" element={<Employment />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/batch/:batchId" element={<BatchDetails />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
