@@ -10,7 +10,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         
         <div className="z-20 max-w-4xl px-8">
-          <h1 className="font-serif text-6xl md:text-8xl font-bold mb-4 text-stroke text-shadow animate-fadeInUp">
+          <h1 className="font-serif text-4xl sm:text-6xl md:text-8xl font-bold mb-4 text-stroke text-shadow animate-fadeInUp">
             Goyal Fashions
           </h1>
           <p className="text-xl mb-8 text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
@@ -33,7 +33,7 @@ const Home = () => {
 
 
       {/* Testimonials */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50 -mx-8 px-8">
+      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text animate-fadeInUp">
             What Our Clients Say

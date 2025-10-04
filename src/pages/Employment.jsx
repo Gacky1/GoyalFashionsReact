@@ -8,7 +8,7 @@ const Employment = () => {
       <section className="h-96 colorful-bg flex items-center justify-center text-center text-white relative employment-hero-bg bg-cover bg-center">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
         <div className="z-20 max-w-4xl px-8">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
+          <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             Captive Employment Opportunities
           </h1>
           <p className="text-xl text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
@@ -162,33 +162,33 @@ const Employment = () => {
       </section>
 
       {/* Employment Impact */}
-      <section className="py-20 colorful-bg -mx-8 px-8">
+      <section className="py-20 colorful-bg">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 text-white animate-fadeInUp">
             Our Employment Impact
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 stagger-animation">
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center vibrant-card animate-fadeInUp" style={{'--stagger': 1}}>
+            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300 animate-fadeInUp" style={{'--stagger': 1}}>
               <div className="text-5xl font-bold mb-2 gradient-text animate-pulse-slow">5,000+</div>
-              <h3 className="text-xl font-semibold mb-2">Lives Transformed</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Lives Transformed</h3>
               <p className="text-gray-600">Direct employment provided across all sectors</p>
             </div>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center vibrant-card animate-fadeInUp" style={{'--stagger': 2}}>
+            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300 animate-fadeInUp" style={{'--stagger': 2}}>
               <div className="text-5xl font-bold mb-2 gradient-text animate-pulse-slow">85%</div>
-              <h3 className="text-xl font-semibold mb-2">Rural Youth Employed</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Rural Youth Employed</h3>
               <p className="text-gray-600">From underserved communities</p>
             </div>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center vibrant-card animate-fadeInUp" style={{'--stagger': 3}}>
+            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300 animate-fadeInUp" style={{'--stagger': 3}}>
               <div className="text-5xl font-bold mb-2 gradient-text animate-pulse-slow">60%</div>
-              <h3 className="text-xl font-semibold mb-2">Women Empowered</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Women Empowered</h3>
               <p className="text-gray-600">Female workforce participation</p>
             </div>
             
-            <div className="bg-white rounded-2xl p-8 shadow-lg text-center vibrant-card animate-fadeInUp" style={{'--stagger': 4}}>
+            <div className="bg-white rounded-2xl p-8 shadow-lg text-center hover:shadow-xl transition-all duration-300 animate-fadeInUp" style={{'--stagger': 4}}>
               <div className="text-5xl font-bold mb-2 gradient-text animate-pulse-slow">₹25K+</div>
-              <h3 className="text-xl font-semibold mb-2">Average Monthly Income</h3>
+              <h3 className="text-xl font-semibold mb-2 text-gray-800">Average Monthly Income</h3>
               <p className="text-gray-600">Sustainable livelihood created</p>
             </div>
           </div>

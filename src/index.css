@@ -21,6 +21,24 @@ body {
   overflow-x: hidden;
 }
 
+/* Prevent horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+.container, section, div {
+  overflow-x: hidden;
+}
+
+/* Ensure mobile responsiveness */
+@media (max-width: 768px) {
+  .max-w-7xl, .max-w-6xl, .max-w-4xl {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .hero-bg {
   background-image: url("https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 }
