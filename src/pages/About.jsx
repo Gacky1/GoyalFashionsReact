@@ -154,16 +154,32 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-maroon-golden rounded-full flex items-center justify-center mx-auto mb-4">
                 <i className="fas fa-tshirt text-2xl text-white"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-maroon">Textiles</h3>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Textile</h3>
               <p className="text-gray-600 text-sm">Premium garment manufacturing and export with 40+ years of expertise</p>
             </div>
             
             <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="w-16 h-16 bg-gradient-golden-maroon rounded-full flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-hotel text-2xl text-white"></i>
+                <i className="fas fa-graduation-cap text-2xl text-white"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-maroon">Hospitality</h3>
-              <p className="text-gray-600 text-sm">Luxury resort experiences at Ananta Spa & Resort, Jaipur</p>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Education Division</h3>
+              <p className="text-gray-600 text-sm">AIHMAS and comprehensive educational programs</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-maroon-golden rounded-full flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-tools text-2xl text-white"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Skill Division</h3>
+              <p className="text-gray-600 text-sm">Professional skill development and training programs</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-golden-maroon rounded-full flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-shopping-bag text-2xl text-white"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Retail & Mall</h3>
+              <p className="text-gray-600 text-sm">City Pulse Mall - Modern shopping destination in Jaipur</p>
             </div>
             
             <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
@@ -176,10 +192,26 @@ const About = () => {
             
             <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
               <div className="w-16 h-16 bg-gradient-golden-maroon rounded-full flex items-center justify-center mx-auto mb-4">
-                <i className="fas fa-shopping-bag text-2xl text-white"></i>
+                <i className="fas fa-hotel text-2xl text-white"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-maroon">Retail</h3>
-              <p className="text-gray-600 text-sm">City Pulse Mall - Modern shopping destination in Jaipur</p>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Hospitality Division</h3>
+              <p className="text-gray-600 text-sm">Luxury resort experiences at Ananta Spa & Resort, Jaipur</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-maroon-golden rounded-full flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-soap text-2xl text-white"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Laundry Division</h3>
+              <p className="text-gray-600 text-sm">Professional laundry and garment care services</p>
+            </div>
+            
+            <div className="bg-white rounded-2xl p-6 shadow-lg text-center hover:shadow-xl transition-all duration-300">
+              <div className="w-16 h-16 bg-gradient-golden-maroon rounded-full flex items-center justify-center mx-auto mb-4">
+                <i className="fas fa-tint text-2xl text-white"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Water Bottle Plant</h3>
+              <p className="text-gray-600 text-sm">Pure water bottling and distribution facility</p>
             </div>
           </div>
         </div>
