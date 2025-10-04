@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Loader from './components/Loader';
@@ -10,6 +10,16 @@ import Employment from './pages/Employment';
 import Contact from './pages/Contact';
 import BatchDetails from './pages/BatchDetails';
 import NotFound from './pages/NotFound';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -28,6 +38,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Navbar />
         <main className="pt-20">
