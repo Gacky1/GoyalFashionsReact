@@ -41,7 +41,7 @@ const Contact = () => {
       {/* Page Hero */}
       <section className="h-96 colorful-bg flex items-center justify-center text-center text-white relative contact-hero-bg bg-cover bg-top">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
-        <div className="z-20 max-w-4xl px-8">
+        <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             Contact Us
           </h1>
@@ -229,8 +229,8 @@ const Contact = () => {
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-hotel text-2xl text-white icon-bounce"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Hospitality Division</h3>
-              <p className="opacity-90 mb-6">For hotel bookings, event planning, and hospitality services.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white">Hospitality Division</h3>
+              <p className="opacity-90 mb-6 text-white">For hotel bookings, event planning, and hospitality services.</p>
               <a 
                 href="https://anantahotels.com" 
                 target="_blank" 
@@ -245,8 +245,8 @@ const Contact = () => {
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-graduation-cap text-2xl text-white icon-bounce"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Education Division</h3>
-              <p className="opacity-90 mb-6">For admissions, academic programs, and educational partnerships.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white">Education Division</h3>
+              <p className="opacity-90 mb-6 text-white">For admissions, academic programs, and educational partnerships.</p>
               <a 
                 href="https://aihmas.com" 
                 target="_blank" 
@@ -261,8 +261,8 @@ const Contact = () => {
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-chart-line text-2xl text-white icon-bounce"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-4">Investment Division</h3>
-              <p className="opacity-90 mb-6">For investment opportunities, partnerships, and financial services.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white">Investment Division</h3>
+              <p className="opacity-90 mb-6 text-white">For investment opportunities, partnerships, and financial services.</p>
               <a 
                 href="https://investwithananta.com" 
                 target="_blank" 

@@ -89,7 +89,7 @@ const Education = () => {
       {/* Page Hero */}
       <section className="h-96 colorful-bg flex items-center justify-center text-center text-white relative education-hero-bg bg-cover bg-center">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
-        <div className="z-20 max-w-4xl px-8">
+        <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             Empowering People, Enabling Progress
           </h1>
@@ -122,7 +122,7 @@ const Education = () => {
       </section>
 
       {/* Skill Development Overview */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
+      <section className="py-20 bg-off-white">
         <div className="max-w-6xl mx-auto px-8">
           <div className="text-center mb-16 animate-fadeInUp">
             <h2 className="text-4xl font-bold mb-6 gradient-text">Skill Development: Building Skills for Today & Tomorrow</h2>
@@ -132,61 +132,61 @@ const Education = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation">
-            <div className="bg-gradient-to-br from-blue-400 to-blue-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 1}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 1}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-tshirt"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Textiles & Apparel</h3>
-              <p className="opacity-90">Industry-specific training for garment manufacturing and textile production</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Textiles & Apparel</h3>
+              <p className="opacity-90 text-white">Industry-specific training for garment manufacturing and textile production</p>
             </div>
-            <div className="bg-gradient-to-br from-green-400 to-green-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 2}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 2}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-hotel"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Hospitality</h3>
-              <p className="opacity-90">Comprehensive hospitality training programs</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Hospitality</h3>
+              <p className="opacity-90 text-white">Comprehensive hospitality training programs</p>
             </div>
-            <div className="bg-gradient-to-br from-purple-400 to-purple-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 3}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 3}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-building"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Real Estate</h3>
-              <p className="opacity-90">Property management and real estate skills development</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Real Estate</h3>
+              <p className="opacity-90 text-white">Property management and real estate skills development</p>
             </div>
-            <div className="bg-gradient-to-br from-pink-400 to-pink-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 4}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 4}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-swimming-pool"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Club & Recreation</h3>
-              <p className="opacity-90">Service excellence in club and recreational facilities</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Club & Recreation</h3>
+              <p className="opacity-90 text-white">Service excellence in club and recreational facilities</p>
             </div>
-            <div className="bg-gradient-to-br from-indigo-400 to-indigo-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 5}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 5}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-tools"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Skill Development</h3>
-              <p className="opacity-90">Comprehensive skill training across multiple industries</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Skill Development</h3>
+              <p className="opacity-90 text-white">Comprehensive skill training across multiple industries</p>
             </div>
-            <div className="bg-gradient-to-br from-red-400 to-red-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 6}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 6}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-shopping-cart"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Retail Services</h3>
-              <p className="opacity-90">Customer service and retail management training</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Retail Services</h3>
+              <p className="opacity-90 text-white">Customer service and retail management training</p>
             </div>
-            <div className="bg-gradient-to-br from-teal-400 to-teal-600 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 7}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 7}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-graduation-cap"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Education</h3>
-              <p className="opacity-90">Academic excellence and professional education programs</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Education</h3>
+              <p className="opacity-90 text-white">Academic excellence and professional education programs</p>
             </div>
-            <div className="bg-gradient-to-br from-yellow-400 to-orange-500 text-white p-6 rounded-xl shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 8}}>
-              <div className="text-3xl mb-4 icon-bounce">
+            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 8}}>
+              <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-solar-panel"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3">Solar Energy</h3>
-              <p className="opacity-90">Green energy and sustainable technology skills</p>
+              <h3 className="font-bold text-lg mb-3 text-white">Solar Energy</h3>
+              <p className="opacity-90 text-white">Green energy and sustainable technology skills</p>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@ const Education = () => {
 
       {/* Skill Development Objectives */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Skill Development Objectives</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Skill Development Objectives</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
@@ -237,7 +237,7 @@ const Education = () => {
       {/* Skill Training Domains */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Skill Training Domains</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Skill Training Domains</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <h3 className="font-bold text-xl mb-4 text-blue-600">Textile & Apparel</h3>
@@ -280,7 +280,7 @@ const Education = () => {
 
       {/* Training Model */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Skill Training Model</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Skill Training Model</h2>
         <p className="text-center text-xl text-gray-600 mb-12">We follow a "Training-to-Employment" approach</p>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="text-center">
@@ -324,7 +324,7 @@ const Education = () => {
       {/* Training Infrastructure */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Training Infrastructure</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Training Infrastructure</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <i className="fas fa-building text-4xl text-blue-600 mb-4"></i>
@@ -347,7 +347,7 @@ const Education = () => {
 
       {/* Student Testimonials */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Student & Alumni Testimonials</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Student & Alumni Testimonials</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-xl shadow-lg">
             <div className="text-yellow-500 mb-4">
@@ -395,29 +395,29 @@ const Education = () => {
       </section>
 
       {/* Impact Statistics */}
-      <section className="py-20 bg-gradient-primary text-white">
+      <section className="py-20 colorful-bg text-white">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Impact So Far</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">Impact So Far</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-5xl font-bold mb-2">11,000+</div>
-              <p className="text-xl">Youth Trained</p>
-              <p className="text-sm opacity-80">Across Rajasthan and neighboring states</p>
+              <div className="text-5xl font-bold mb-2 text-white">11,000+</div>
+              <p className="text-xl text-white">Youth Trained</p>
+              <p className="text-sm opacity-80 text-white">Across Rajasthan and neighboring states</p>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2">100%</div>
-              <p className="text-xl">Captive Employment</p>
-              <p className="text-sm opacity-80">Through Ananta Hotels and Goyal Group Units</p>
+              <div className="text-5xl font-bold mb-2 text-white">100%</div>
+              <p className="text-xl text-white">Captive Employment</p>
+              <p className="text-sm opacity-80 text-white">Through Ananta Hotels and Goyal Group Units</p>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2">500+</div>
-              <p className="text-xl">Women-led SHGs</p>
-              <p className="text-sm opacity-80">Development in textile packaging & stitching</p>
+              <div className="text-5xl font-bold mb-2 text-white">500+</div>
+              <p className="text-xl text-white">Women-led SHGs</p>
+              <p className="text-sm opacity-80 text-white">Development in textile packaging & stitching</p>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2">A+</div>
-              <p className="text-xl">Government Recognition</p>
-              <p className="text-sm opacity-80">Strong record under Central & State schemes</p>
+              <div className="text-5xl font-bold mb-2 text-white">A+</div>
+              <p className="text-xl text-white">Government Recognition</p>
+              <p className="text-sm opacity-80 text-white">Strong record under Central & State schemes</p>
             </div>
           </div>
         </div>
@@ -425,7 +425,7 @@ const Education = () => {
 
       {/* Government Schemes Table */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Training Under Government Schemes</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Training Under Government Schemes</h2>
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-xl shadow-lg overflow-hidden">
             <thead className="bg-gray-50">
@@ -506,7 +506,7 @@ const Education = () => {
       {/* Government Partnerships */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12">Our Government Partnerships</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Government Partnerships</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
               <div className="h-16 flex items-center justify-center mb-4">
@@ -550,7 +550,7 @@ const Education = () => {
 
        {/* GFPL Skilling Map */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-primary bg-clip-text text-transparent">
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
           GFPL Skilling Map
         </h2>
         <div className="text-center">
@@ -569,7 +569,7 @@ const Education = () => {
               <span><strong>Hunar Se Rozgar Tak:</strong> 05 Centers</span>
             </div>
           </div>
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <a 
               href="/WEb Upload Data GFPL_Excel Sheet.xlsx" 
               className="download-button"
@@ -593,7 +593,7 @@ const Education = () => {
               </svg>
               <span>Students trained-2024-25</span>
             </a>
-          </div>
+          </div> */}
           <p className="mt-8 text-gray-600">
             Our skill development centers span across Rajasthan, providing training and employment opportunities in rural and urban areas.
           </p>
@@ -603,7 +603,7 @@ const Education = () => {
       {/* CTA Section */}
       <section className="py-20 text-center">
         <div className="max-w-4xl mx-auto px-8">
-          <h2 className="text-4xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
+          <h2 className="text-4xl font-bold mb-8 gradient-text">
             Ready to Start Your Career?
           </h2>
           <p className="text-xl mb-8 text-gray-600">

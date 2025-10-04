@@ -9,7 +9,7 @@ const Home = () => {
         <div className="absolute inset-0 hero-bg bg-cover bg-center"></div>
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         
-        <div className="z-20 max-w-4xl px-8">
+        <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className="font-serif text-4xl sm:text-6xl md:text-8xl font-bold mb-4 text-stroke text-shadow animate-fadeInUp">
             Goyal Fashions
           </h1>

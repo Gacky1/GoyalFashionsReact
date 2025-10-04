@@ -70,7 +70,7 @@ const About = () => {
       {/* Page Hero */}
       <section className="h-96 colorful-bg flex items-center justify-center text-center text-white relative about-hero-bg bg-cover bg-center">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
-        <div className="z-20 max-w-4xl px-8">
+        <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className="font-serif text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             India's Premier Flagship Enterprise
           </h1>

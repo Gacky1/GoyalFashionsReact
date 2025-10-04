@@ -51,7 +51,7 @@ const Navbar = () => {
               <li key={link.to} className="animate-fadeInUp" style={{animationDelay: `${index * 0.1}s`}}>
                 <Link
                   to={link.to}
-                  className={`px-6 py-3 rounded-full font-semibold text-sm transition-all duration-300 hover:scale-105 hover:-translate-y-1 whitespace-nowrap relative overflow-hidden group ${
+                  className={`px-6 py-3 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 hover:-translate-y-1 whitespace-nowrap relative overflow-hidden group ${
                     location.pathname === link.to
                       ? 'text-white bg-gradient-maroon-golden shadow-lg shadow-golden/30'
                       : 'text-maroon hover:text-golden'
@@ -87,7 +87,7 @@ const Navbar = () => {
                 <Link
                   to={link.to}
                   onClick={() => setIsMobileMenuOpen(false)}
-                  className={`block px-6 py-4 rounded-xl font-semibold text-center transition-all duration-300 hover:scale-105 relative overflow-hidden group ${
+                  className={`block px-6 py-4 rounded-xl font-bold text-center transition-all duration-300 hover:scale-105 relative overflow-hidden group ${
                     location.pathname === link.to
                       ? 'text-white bg-gradient-maroon-golden shadow-lg'
                       : 'text-maroon hover:text-white border-2 border-golden hover:border-transparent'
