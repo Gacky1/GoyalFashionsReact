@@ -90,7 +90,7 @@ const Education = () => {
       <section className="h-96 colorful-bg flex items-center justify-center text-center text-white relative education-hero-bg bg-cover bg-center">
         <div className="absolute inset-0 bg-black/30 z-10"></div>
         <div className="z-20 max-w-4xl px-8 hero-text">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
+          <h1 className=" text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             Empowering People, Enabling Progress
           </h1>
           <p className="text-xl text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>

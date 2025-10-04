@@ -10,8 +10,13 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/40 z-10"></div>
         
         <div className="z-20 max-w-4xl px-8 hero-text">
-          <h1 className="font-serif text-4xl sm:text-6xl md:text-8xl font-bold mb-4 text-stroke text-shadow animate-fadeInUp">
-            Goyal Fashions
+          <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold mb-6 animate-fadeInUp">
+            <span className="block text-white drop-shadow-2xl leading-tight">
+              Diversified <span className="text-off-white" style={{WebkitTextStroke: '2px #652028'}}>Ventures</span>,
+            </span>
+            <span className="block text-white drop-shadow-2xl leading-tight mt-2">
+              Unified <span className="text-off-white" style={{WebkitTextStroke: '2px #652028'}}>Vision</span>
+            </span>
           </h1>
           <p className="text-xl mb-8 text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
             India's Premier Flagship Enterprise
