@@ -18,7 +18,7 @@ const Home = () => {
           </p>
           <Link 
             to="/about" 
-            className="inline-block px-8 py-4 bg-white/20 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-gray-800 transition-all duration-300 hover:-translate-y-2 shadow-lg animate-fadeInUp glowing-button"
+            className="inline-block px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon transition-all duration-300 hover:-translate-y-2 shadow-lg animate-fadeInUp"
             style={{animationDelay: '0.6s'}}
           >
             Discover Our Story
@@ -33,13 +33,13 @@ const Home = () => {
 
 
       {/* Testimonials */}
-      <section className="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
+      <section className="py-20 bg-off-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text animate-fadeInUp">
             What Our Clients Say
           </h2>
           <div className="grid md:grid-cols-3 gap-8 stagger-animation">
-            <div className="bg-white rounded-2xl p-8 shadow-lg vibrant-card text-white animate-fadeInLeft" style={{'--stagger': 1}}>
+            <div className="bg-gradient-maroon-golden rounded-2xl p-8 shadow-lg text-white animate-fadeInLeft" style={{'--stagger': 1}}>
               <div className="text-4xl mb-4 opacity-70">
                 <i className="fas fa-quote-left"></i>
               </div>
@@ -51,7 +51,7 @@ const Home = () => {
                 - Sarah Johnson, Fashion Designer
               </div>
             </div>
-            <div className="bg-gradient-to-br from-green-400 to-blue-500 rounded-2xl p-8 shadow-lg vibrant-card text-white animate-fadeInUp" style={{'--stagger': 2}}>
+            <div className="bg-gradient-golden-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInUp" style={{'--stagger': 2}}>
               <div className="text-4xl mb-4 opacity-70">
                 <i className="fas fa-quote-left"></i>
               </div>
@@ -63,7 +63,7 @@ const Home = () => {
                 - Michael Chen, Business Traveler
               </div>
             </div>
-            <div className="bg-gradient-to-br from-pink-400 to-red-500 rounded-2xl p-8 shadow-lg vibrant-card text-white animate-fadeInRight" style={{'--stagger': 3}}>
+            <div className="bg-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInRight" style={{'--stagger': 3}}>
               <div className="text-4xl mb-4 opacity-70">
                 <i className="fas fa-quote-left"></i>
               </div>

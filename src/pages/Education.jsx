@@ -469,7 +469,7 @@ const Education = () => {
         <div className="text-center mt-12">
           <button
             onClick={() => setShowHSRTList(!showHSRTList)}
-            className="px-8 py-4 bg-gradient-to-r from-green-500 to-teal-600 text-white rounded-full font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
+            className="px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <i className="fas fa-history mr-2"></i>
             Watch Past HSRT Records
@@ -612,13 +612,13 @@ const Education = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <a 
               href="/education" 
-              className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold glowing-button"
+              className="px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon transition-all duration-300"
             >
               Explore Training Programs
             </a>
             <a 
               href="/contact" 
-              className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold glowing-button"
+              className="px-8 py-4 bg-golden border-2 border-maroon text-maroon rounded-full font-semibold hover:bg-maroon hover:text-white transition-all duration-300"
             >
               Contact for Jobs
             </a>

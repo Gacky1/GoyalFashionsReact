@@ -209,13 +209,13 @@ const Employment = () => {
           <div className="flex flex-wrap justify-center gap-4">
             <Link 
               to="/education" 
-              className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold glowing-button"
+              className="px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon transition-all duration-300"
             >
               Explore Training Programs
             </Link>
             <Link 
               to="/contact" 
-              className="px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold glowing-button"
+              className="px-8 py-4 bg-golden border-2 border-maroon text-maroon rounded-full font-semibold hover:bg-maroon hover:text-white transition-all duration-300"
             >
               Contact for Jobs
             </Link>

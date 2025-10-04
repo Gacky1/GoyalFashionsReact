@@ -7,13 +7,22 @@ const Contact = () => {
     phone: '',
     division: '',
     subject: '',
-    message: ''
+    message: '',
+    documents: []
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
+    });
+  };
+
+  const handleFileChange = (e) => {
+    const files = Array.from(e.target.files);
+    setFormData({
+      ...formData,
+      documents: files
     });
   };
 
@@ -171,9 +180,36 @@ const Contact = () => {
                 ></textarea>
               </div>
               
+              <div className="mb-6">
+                <label htmlFor="documents" className="block mb-2 font-medium">Add Documents</label>
+                <input
+                  type="file"
+                  id="documents"
+                  name="documents"
+                  onChange={handleFileChange}
+                  multiple
+                  accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
+                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-maroon file:text-white hover:file:bg-golden hover:file:text-maroon"
+                />
+                <p className="text-sm text-gray-500 mt-2">Supported formats: PDF, DOC, DOCX, JPG, JPEG, PNG (Max 5MB each)</p>
+                {formData.documents.length > 0 && (
+                  <div className="mt-3">
+                    <p className="text-sm font-medium text-maroon">Selected files:</p>
+                    <ul className="text-sm text-gray-600">
+                      {formData.documents.map((file, index) => (
+                        <li key={index} className="flex items-center mt-1">
+                          <i className="fas fa-file mr-2 text-maroon"></i>
+                          {file.name} ({(file.size / 1024 / 1024).toFixed(2)} MB)
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </div>
+              
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-gradient-primary text-white rounded-full font-semibold glowing-button"
+                className="w-full px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon transition-all duration-300"
               >
                 Send Message
               </button>

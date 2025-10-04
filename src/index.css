@@ -84,12 +84,12 @@ section {
 }
 
 .glowing-button {
-  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 0 20px rgba(101, 32, 40, 0.3);
   transition: all 0.3s ease;
 }
 
 .glowing-button:hover {
-  box-shadow: 0 0 30px rgba(37, 99, 235, 0.5);
+  box-shadow: 0 0 30px rgba(101, 32, 40, 0.5);
   transform: translateY(-2px);
 }
 
@@ -217,7 +217,7 @@ section {
 }
 
 .gradient-text {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #652028, #D4AF37, #B8860B, #652028);
   background-size: 400% 400%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -226,7 +226,7 @@ section {
 }
 
 .vibrant-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #652028 0%, #A0522D 100%);
   transition: all 0.3s ease;
 }
 
@@ -236,7 +236,7 @@ section {
 }
 
 .colorful-bg {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg, #652028, #A0522D, #D4AF37, #652028);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
 }
@@ -281,4 +281,45 @@ section {
 
 .loader-spin-reverse {
   animation: loaderSpin 1.5s linear infinite reverse;
+}
+
+/* New Color Theme */
+.bg-maroon {
+  background-color: #652028;
+}
+
+.bg-golden {
+  background-color: #D4AF37;
+}
+
+.bg-off-white {
+  background-color: #fbf5eb;
+}
+
+.text-maroon {
+  color: #652028;
+}
+
+.text-golden {
+  color: #D4AF37;
+}
+
+.text-off-white {
+  color: #fbf5eb;
+}
+
+.border-maroon {
+  border-color: #652028;
+}
+
+.border-golden {
+  border-color: #D4AF37;
+}
+
+.bg-gradient-maroon-golden {
+  background: linear-gradient(135deg, #652028 0%, #D4AF37 100%);
+}
+
+.bg-gradient-golden-maroon {
+  background: linear-gradient(135deg, #D4AF37 0%, #652028 100%);
 }
