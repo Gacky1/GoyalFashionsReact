@@ -12,10 +12,10 @@ const Home = () => {
         <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold mb-6 animate-fadeInUp">
             <span className="block text-white drop-shadow-2xl leading-tight">
-              Diversified <span className="text-off-white" style={{WebkitTextStroke: '2px #652028'}}>Ventures</span>,
+              Diversified Ventures
             </span>
             <span className="block text-white drop-shadow-2xl leading-tight mt-2">
-              Unified <span className="text-off-white" style={{WebkitTextStroke: '2px #652028'}}>Vision</span>
+              Unified Vision
             </span>
           </h1>
           <p className="text-xl mb-8 text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
