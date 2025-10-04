@@ -22,7 +22,7 @@ const Contact = () => {
     
     const emailBody = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0ADivision: ${formData.division}%0D%0ASubject: ${formData.subject}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
     
-    const mailtoLink = `mailto:rachitavasthi.it25@gmail.com?subject=Contact Form: ${encodeURIComponent(formData.subject)}&body=${emailBody}`;
+    const mailtoLink = `mailto:gfpl.skill@gmail.com?subject=Contact Form: ${encodeURIComponent(formData.subject)}&body=${emailBody}`;
     
     window.location.href = mailtoLink;
   };
@@ -138,11 +138,10 @@ const Contact = () => {
                   className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
                 >
                   <option value="">Select Division</option>
-                  <option value="textiles">Textiles</option>
-                  <option value="hospitality">Hospitality</option>
-                  <option value="education">Education</option>
-                  <option value="investment">Investment</option>
-                  <option value="general">General Inquiry</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                  <option value="Skill Development">Skill Development</option>
+                  <option value="Career">Career</option>
+                  <option value="Other">Other</option>
                 </select>
               </div>
               
