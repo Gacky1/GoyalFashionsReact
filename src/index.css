@@ -22,11 +22,11 @@ body {
 }
 
 /* Prevent horizontal overflow */
-* {
-  max-width: 100%;
+body, html {
+  overflow-x: hidden;
 }
 
-.container, section, div {
+section {
   overflow-x: hidden;
 }
 
