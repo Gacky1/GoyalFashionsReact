@@ -40,38 +40,38 @@ const Home = () => {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 stagger-animation">
             <div className="bg-gradient-maroon-golden rounded-2xl p-8 shadow-lg text-white animate-fadeInLeft" style={{'--stagger': 1}}>
-              <div className="text-4xl mb-4 opacity-70">
+              <div className="text-4xl mb-4 opacity-70 text-white">
                 <i className="fas fa-quote-left"></i>
               </div>
-              <p className="mb-6">
+              <p className="mb-6 text-white">
                 "Goyal Fashions has been our trusted textile partner for over a
                 decade. Their quality and reliability are unmatched."
               </p>
-              <div className="font-semibold">
+              <div className="font-semibold text-white">
                 - Sarah Johnson, Fashion Designer
               </div>
             </div>
             <div className="bg-gradient-golden-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInUp" style={{'--stagger': 2}}>
-              <div className="text-4xl mb-4 opacity-70">
+              <div className="text-4xl mb-4 opacity-70 text-white">
                 <i className="fas fa-quote-left"></i>
               </div>
-              <p className="mb-6">
+              <p className="mb-6 text-white">
                 "The hospitality experience at Goyal hotels is exceptional. Every
                 stay feels like a luxury retreat."
               </p>
-              <div className="font-semibold">
+              <div className="font-semibold text-white">
                 - Michael Chen, Business Traveler
               </div>
             </div>
             <div className="bg-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInRight" style={{'--stagger': 3}}>
-              <div className="text-4xl mb-4 opacity-70">
+              <div className="text-4xl mb-4 opacity-70 text-white">
                 <i className="fas fa-quote-left"></i>
               </div>
-              <p className="mb-6">
+              <p className="mb-6 text-white">
                 "Their investment advisory services helped us achieve remarkable
                 portfolio growth with strategic insights."
               </p>
-              <div className="font-semibold">
+              <div className="font-semibold text-white">
                 - Priya Sharma, Investor
               </div>
             </div>

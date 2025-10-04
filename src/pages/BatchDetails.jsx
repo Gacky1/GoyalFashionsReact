@@ -118,9 +118,9 @@ const BatchDetails = () => {
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
-          <div className="text-center text-white">
-            <h1 className="text-5xl font-bold mb-4 animate-fadeInUp">{batch.name}</h1>
-            <p className="text-xl animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+          <div className="text-center text-white hero-text">
+            <h1 className="text-5xl font-bold mb-4 animate-fadeInUp text-white">{batch.name}</h1>
+            <p className="text-xl animate-fadeInUp text-white" style={{animationDelay: '0.3s'}}>
               Skill Development Programme - Ministry of Tourism
             </p>
           </div>
