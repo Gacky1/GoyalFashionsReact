@@ -299,7 +299,19 @@ const Education = () => {
       <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Student & Alumni Testimonials</h2>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-lg">
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="flex items-center mb-4">
+              <img 
+                src="/images/vijay-kumar.jpg" 
+                alt="Vijay Kumar"
+                className="w-16 h-16 rounded-full object-cover mr-4"
+              />
+              <div>
+                <p className="font-bold text-lg">Vijay Kumar</p>
+                <p className="text-sm text-gray-500">Junior Cook - Goyal Fashions Pvt. Ltd.</p>
+                <p className="text-sm text-maroon font-semibold">CTC: Rs. 16,500/-</p>
+              </div>
+            </div>
             <div className="text-yellow-500 mb-4">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -307,13 +319,27 @@ const Education = () => {
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
             </div>
-            <p className="text-gray-600 mb-6 italic">"I am grateful for the need that AIHMAS fulfilled in my life. The competency and professionalism is nothing less than outstanding."</p>
+            <p className="text-gray-600 mb-4 italic text-sm leading-relaxed">
+              "I recently completed a skill training program under the Hunar Se Rozgar Tak scheme at Goyal Fashions Private Limited during 9/20/2024 to 12/30/2024. This program gave me an incredible opportunity to gain industry-specific skills in a supportive learning environment. The practical sessions, professional grooming, and communication training helped me grow both personally and professionally."
+            </p>
             <div className="border-t pt-4">
-              <p className="font-bold">Harsha Kashyap</p>
-              <p className="text-sm text-gray-500">2015 Batch - Hotel Trident Oberoi, Jaipur</p>
+              <p className="text-xs text-gray-500">HSRT 2024-25 Batch | Kanwani, Hanumangarh</p>
             </div>
           </div>
-          <div className="bg-white p-8 rounded-xl shadow-lg">
+          
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="flex items-center mb-4">
+              <img 
+                src="/images/vikram.jpg" 
+                alt="Vikram"
+                className="w-16 h-16 rounded-full object-cover mr-4"
+              />
+              <div>
+                <p className="font-bold text-lg">Vikram</p>
+                <p className="text-sm text-gray-500">Commi - III - The Baagh Ananta Elite</p>
+                <p className="text-sm text-maroon font-semibold">CTC: Rs. 15,500/-</p>
+              </div>
+            </div>
             <div className="text-yellow-500 mb-4">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -321,13 +347,27 @@ const Education = () => {
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
             </div>
-            <p className="text-gray-600 mb-6 italic">"The superb facilities along with the excellent faculty make it a great opportunity for each person to learn and grow."</p>
+            <p className="text-gray-600 mb-4 italic text-sm leading-relaxed">
+              "I completed my skill training program under the Hunar Se Rozgar Tak scheme at Goyal Fashions Private Limited during 9/20/2024 to 12/30/2024. Before joining, I had very limited exposure to the hospitality sector. Today, I am proud to be working at The Baagh Ananta Elite, Ranthambore. I am thankful to the entire team for guiding me toward a successful career in hospitality."
+            </p>
             <div className="border-t pt-4">
-              <p className="font-bold">Prateek Parashar</p>
-              <p className="text-sm text-gray-500">2015 Batch - Hotel Radisson Jaipur City Center</p>
+              <p className="text-xs text-gray-500">HSRT 2024-25 Batch | Ranjeetpura, Hanumangarh</p>
             </div>
           </div>
-          <div className="bg-white p-8 rounded-xl shadow-lg">
+          
+          <div className="bg-white p-6 rounded-xl shadow-lg">
+            <div className="flex items-center mb-4">
+              <img 
+                src="/images/pooja.jpg" 
+                alt="Pooja"
+                className="w-16 h-16 rounded-full object-cover mr-4"
+              />
+              <div>
+                <p className="font-bold text-lg">Pooja</p>
+                <p className="text-sm text-gray-500">Commi - III - The Baagh Ananta Elite</p>
+                <p className="text-sm text-maroon font-semibold">CTC: Rs. 15,500/-</p>
+              </div>
+            </div>
             <div className="text-yellow-500 mb-4">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
@@ -335,10 +375,11 @@ const Education = () => {
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
             </div>
-            <p className="text-gray-600 mb-6 italic">"AIHMAS is one of the best hotel management colleges that allows an easy, smooth, and rewarding transition from a novice to professional in the hospitality industry."</p>
+            <p className="text-gray-600 mb-4 italic text-sm leading-relaxed">
+              "I recently completed a skill training program under the Hunar Se Rozgar Tak scheme at Goyal Fashions Private Limited during 9/20/2024 to 12/30/2024. This program gave me an incredible opportunity to gain industry-specific skills. The practical sessions, professional grooming, and communication training helped me grow both personally and professionally."
+            </p>
             <div className="border-t pt-4">
-              <p className="font-bold">Mayur Pachpute</p>
-              <p className="text-sm text-gray-500">2015 Batch - Hotel Renaissance, Mumbai</p>
+              <p className="text-xs text-gray-500">HSRT 2024-25 Batch | Naurangdesar, Hanumangarh</p>
             </div>
           </div>
         </div>
