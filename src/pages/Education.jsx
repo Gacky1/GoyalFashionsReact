@@ -15,72 +15,9 @@ const Education = () => {
   const hsrtBatches = [
     {
       id: 1,
-      name: "HSRT 2018-19",
-      year: "2018-19",
-      date: "Aug 12, 2019",
-      courses: [
-        {
-          batchNo: "MCC03",
-          courseName: "Multi Cuisine Cook",
-          duration: "500 + 240 (OJT)",
-          durationDays: 67,
-          students: 30,
-          startDate: "12/08/2019",
-          endDate: "07/11/2019",
-          ojtDuration: 24,
-          ojtStart: "9/11/2019",
-          ojtEnd: "9/12/2019"
-        },
-        {
-          batchNo: "FBS01",
-          courseName: "F&B Service-Steward",
-          duration: "300 + 240 (OJT)",
-          durationDays: 42,
-          students: 30,
-          startDate: "27/09/2019",
-          endDate: "14/11/2019",
-          ojtDuration: 24,
-          ojtStart: "16/11/2019",
-          ojtEnd: "10/12/2019"
-        },
-        {
-          batchNo: "FBS02",
-          courseName: "Room Attendant",
-          duration: "300 + 240 (OJT)",
-          durationDays: 43,
-          students: 30,
-          startDate: "14/10/2019",
-          endDate: "02/12/2019",
-          ojtDuration: 24,
-          ojtStart: "4/12/2019",
-          ojtEnd: "27/12/2019"
-        },
-        {
-          batchNo: "FBS03",
-          courseName: "Front Office Associate",
-          duration: "340 + 240 (OJT)",
-          durationDays: 48,
-          students: 30,
-          startDate: "13/09/2019",
-          endDate: "07/11/2019",
-          ojtDuration: 24,
-          ojtStart: "8/11/2019",
-          ojtEnd: "1/12/2019"
-        }
-      ]
-    },
-    {
-      id: 2,
-      name: "HSRT 2019-20",
-      year: "2019-20",
-      date: "Mar 15, 2020",
-      courses: []
-    },
-    {
-      id: 3,
-      name: "HSRT 2020-21",
-      year: "2020-21",
-      date: "Jan 10, 2021",
+      name: "HSRT 2024-25",
+      year: "2024-25",
+      date: "Current Batch",
       courses: []
     }
   ];
@@ -100,23 +37,36 @@ const Education = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 max-w-6xl mx-auto px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div className="animate-fadeInLeft">
-            <h2 className="text-4xl font-bold mb-6 gradient-text">Building Human Capital</h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              At Goyal Fashions Private Limited, we recognize that human capital is the cornerstone of national development and industrial progress. With over four decades of experience across sectors, we have extended our legacy beyond business—into education and skill development, building a stronger, employable India.
+      <section className="py-20 max-w-4xl mx-auto px-8">
+        <div className="text-center animate-fadeInUp">
+          <h2 className="text-4xl font-bold mb-12 gradient-text">Building Human Capital</h2>
+          
+          {/* Testimonial */}
+          <div className="bg-white border-l-4 border-maroon p-8 rounded-xl shadow-lg text-left max-w-3xl mx-auto">
+            <div className="text-5xl mb-6 text-maroon opacity-70 text-center">
+              <i className="fas fa-quote-left"></i>
+            </div>
+            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
+              "It gives me great pride to be associated with Goyal Fashions Private Limited as a key client in the field of Skill Development and Training Implementation. Over the years, I have had the privilege to lead and manage multiple government skill initiatives on behalf of Goyal Fashions, contributing to India's vision of creating a skilled, self-reliant, and future-ready workforce."
             </p>
-            <p className="text-gray-600 leading-relaxed">
-              Our Skill Development Initiatives are aligned with national missions such as <strong>Skill India, Make in India, and Atmanirbhar Bharat</strong>, focusing on creating industry-ready professionals, particularly from underserved communities including youth, women, and rural populations.
+            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
+              "Through structured planning, compliance management, and on-ground execution, we have successfully associated Goyal Fashions with prestigious projects such as RSLDC, Hunar Se Rozgar Tak (HSRT), SAMARTH, ITDC, and NAPS–BTP. Each initiative has opened new avenues for growth, visibility, and impact—positioning Goyal Fashions as a trusted name in India's evolving skill ecosystem."
             </p>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-custom h-96 animate-fadeInRight">
-            <img 
-              src="/images/Hsrt.jpg" 
-              alt="Education Excellence"
-              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-            />
+            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
+              "My focus has always been on building sustainable frameworks—from project acquisition and execution to monitoring and placement—ensuring that every step taken on behalf of Goyal Fashions translates into real opportunities and measurable outcomes for the youth of India."
+            </p>
+            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
+              "Together, we continue to strengthen Goyal Fashions' presence in the Skill Development Sector, expanding its role from a hospitality brand to a multi-sector contributor to national development and empowerment."
+            </p>
+            <div className="bg-gray-50 border-l-4 border-golden pl-6 py-4 mb-6 text-center">
+              <p className="text-maroon font-semibold italic text-xl">
+                "Skill is the bridge between aspiration and achievement—and we are committed to building that bridge."
+              </p>
+            </div>
+            <div className="text-right">
+              <p className="font-bold text-maroon text-lg">— Mr. Vaibhav Gupta</p>
+              <p className="text-gray-600">Skill Development Partner</p>
+            </div>
           </div>
         </div>
       </section>

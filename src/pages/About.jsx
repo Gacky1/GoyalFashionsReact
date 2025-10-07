@@ -10,9 +10,9 @@ const DirectorCarousel = () => {
       position: "Director"
     },
     {
-      quote: "Our journey of four decades has been built on the pillars of innovation, quality, and sustainable growth. We believe in creating value not just for our stakeholders, but for the communities we serve and the nation we call home.",
-      name: "Mr. Rajesh Goyal",
-      position: "Managing Director"
+      quote: "Goyal Fashions stands as the cornerstone of a diversified enterprise built on a unified vision. From pioneering textiles to redefining hospitality with Ananta, advancing clean energy, and fostering community retail spaces — our ventures may be diverse, but our purpose remains one: building India’s future with integrity, innovation, and commitment.",
+      name: "Mr. Vaibhav Gupta",
+      position: "Director – Skill Development Initiatives"
     }
   ];
 

@@ -8,85 +8,48 @@ const BatchDetails = () => {
   const hsrtBatches = [
     {
       id: 1,
-      name: "HSRT 2018-19",
-      year: "2018-19",
-      date: "Aug 12, 2019",
-      headerImage: "https://www.jnujaipur.ac.in/Uploads/image/138imguf_23a5e394329e6e1af6938a708f409d1d1.webp",
+      name: "HSRT 2024-25",
+      year: "2024-25",
+      date: "Current Batch",
+      headerImage: "/images/HSRT 2025 Header.png",
+      description: "Goyal Fashions Private Limited is empanelled with the Ministry of Tourism, Government of India under the flagship initiative Hunar Se Rozgar Tak (HSRT) — a program dedicated to empowering youth through skill-based training in the hospitality sector. As the parent company of Ananta Hotels and Resorts, Goyal Fashions brings extensive hospitality expertise to this initiative, ensuring that each trainee receives hands-on, industry-relevant training aligned with national standards. Through the HSRT program, we aim to transform potential into performance—by nurturing young talent, especially from underprivileged communities, and preparing them for gainful employment and entrepreneurship in the hospitality and tourism industries.",
       courses: [
         {
-          batchNo: "MCC03",
-          courseName: "Multi Cuisine Cook",
+          sno: "01",
+          batchNo: "MCC01",
+          courseName: "Multi-Cuisine Cook (MCC)",
           duration: "500 + 240 (OJT)",
-          durationDays: 67,
-          students: 30,
-          startDate: "12/08/2019",
-          endDate: "07/11/2019",
-          ojtDuration: 24,
-          ojtStart: "9/11/2019",
-          ojtEnd: "9/12/2019"
+          students: 90
         },
         {
+          sno: "02",
+          batchNo: "ROT01",
+          courseName: "Room Attendant (ROT)",
+          duration: "300 + 240 (OJT)",
+          students: 60
+        },
+        {
+          sno: "03",
           batchNo: "FBS01",
-          courseName: "F&B Service-Steward",
+          courseName: "Food & Beverages Services Steward (FBS)",
           duration: "300 + 240 (OJT)",
-          durationDays: 42,
-          students: 30,
-          startDate: "27/09/2019",
-          endDate: "14/11/2019",
-          ojtDuration: 24,
-          ojtStart: "16/11/2019",
-          ojtEnd: "10/12/2019"
+          students: 60
         },
         {
-          batchNo: "FBS02",
-          courseName: "Room Attendant",
-          duration: "300 + 240 (OJT)",
-          durationDays: 43,
-          students: 30,
-          startDate: "14/10/2019",
-          endDate: "02/12/2019",
-          ojtDuration: 24,
-          ojtStart: "4/12/2019",
-          ojtEnd: "27/12/2019"
-        },
-        {
-          batchNo: "FBS03",
-          courseName: "Front Office Associate",
+          sno: "04",
+          batchNo: "FOA01",
+          courseName: "Front-Office Associate (FOA)",
           duration: "340 + 240 (OJT)",
-          durationDays: 48,
-          students: 30,
-          startDate: "13/09/2019",
-          endDate: "07/11/2019",
-          ojtDuration: 24,
-          ojtStart: "8/11/2019",
-          ojtEnd: "1/12/2019"
+          students: 60
         }
       ],
       gallery: [
-        "https://www.jnujaipur.ac.in/Uploads/image/138imguf_23a5e394329e6e1af6938a708f409d1d1.webp",
-        "https://www.jnujaipur.ac.in/Uploads/image/140imguf_04974808ed4fc9b5d0322a77a23b018e2.webp",
-        "https://www.jnujaipur.ac.in/Uploads/image/141imguf_c4d4479ae2831105f63f137591325cfa3.webp",
-        "https://www.jnujaipur.ac.in/Uploads/image/142imguf_b3562509a2d1dea33eb2120577933ad24.webp",
-        "https://www.jnujaipur.ac.in/Uploads/image/143imguf_394f35ca3df61999d0175eb31321b4ab5.webp"
+        "/images/Hsrt 1.1.png",
+        "/images/Hsrt 1.2.png",
+        "/images/Hsrt 1.3.png",
+        "/images/Hsrt 1.4.png",
+        "/images/Hsrt 1.5.png"
       ]
-    },
-    {
-      id: 2,
-      name: "HSRT 2019-20",
-      year: "2019-20",
-      date: "Mar 15, 2020",
-      headerImage: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=400&fit=crop",
-      courses: [],
-      gallery: []
-    },
-    {
-      id: 3,
-      name: "HSRT 2020-21",
-      year: "2020-21",
-      date: "Jan 10, 2021",
-      headerImage: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1200&h=400&fit=crop",
-      courses: [],
-      gallery: []
     }
   ];
 
@@ -140,11 +103,15 @@ const BatchDetails = () => {
         </div>
         
         <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4 gradient-text">Programme Details</h2>
+          <h2 className="text-3xl font-bold mb-4 gradient-text">Hunar Se Rozgar Tak</h2>
           <p className="text-gray-600 mb-4 text-lg">{batch.date}</p>
-          <p className="text-gray-700 leading-relaxed">
-            School of Hotel Management and Catering Technology (SHMCT) is consequently empanelled for conducting "Hunar Se Rozgar Tak" for the year {batch.year}. This skill development program is an initiative of Ministry of Tourism, Govt. of India under the "Capacity Building for Service Providers" scheme.
-          </p>
+          {batch.description ? (
+            <p className="text-gray-700 leading-relaxed">{batch.description}</p>
+          ) : (
+            <p className="text-gray-700 leading-relaxed">
+              School of Hotel Management and Catering Technology (SHMCT) is consequently empanelled for conducting "Hunar Se Rozgar Tak" for the year {batch.year}. This skill development program is an initiative of Ministry of Tourism, Govt. of India under the "Capacity Building for Service Providers" scheme.
+            </p>
+          )}
         </div>
         
         {batch.courses.length > 0 ? (
@@ -152,27 +119,27 @@ const BatchDetails = () => {
             <h3 className="text-2xl font-bold mb-6">Course Details</h3>
             <div className="overflow-x-auto">
               <table className="w-full border border-gray-300 rounded-lg overflow-hidden shadow-lg">
-                <thead className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+                <thead className="bg-maroon text-white">
                   <tr>
-                    <th className="px-4 py-3 text-left font-semibold">Batch No</th>
-                    <th className="px-4 py-3 text-left font-semibold">Course Name</th>
-                    <th className="px-4 py-3 text-left font-semibold">Duration</th>
-                    <th className="px-4 py-3 text-left font-semibold">Students</th>
-                    <th className="px-4 py-3 text-left font-semibold">Start Date</th>
-                    <th className="px-4 py-3 text-left font-semibold">End Date</th>
-                    <th className="px-4 py-3 text-left font-semibold">OJT Duration</th>
+                    {batch.courses[0]?.sno && <th className="px-4 py-3 text-left font-semibold text-white">S.No.</th>}
+                    <th className="px-4 py-3 text-left font-semibold text-white">Course Detail</th>
+                    <th className="px-4 py-3 text-left font-semibold text-white">Duration</th>
+                    <th className="px-4 py-3 text-left font-semibold text-white">No. of Student trained</th>
+                    {batch.courses[0]?.startDate && <th className="px-4 py-3 text-left font-semibold text-white">Start Date</th>}
+                    {batch.courses[0]?.endDate && <th className="px-4 py-3 text-left font-semibold text-white">End Date</th>}
+                    {batch.courses[0]?.ojtDuration && <th className="px-4 py-3 text-left font-semibold text-white">OJT Duration</th>}
                   </tr>
                 </thead>
                 <tbody>
                   {batch.courses.map((course, index) => (
                     <tr key={index} className={index % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                      <td className="px-4 py-3 border-b font-medium">{course.batchNo}</td>
+                      {course.sno && <td className="px-4 py-3 border-b font-medium">{course.sno}</td>}
                       <td className="px-4 py-3 border-b">{course.courseName}</td>
                       <td className="px-4 py-3 border-b">{course.duration}</td>
                       <td className="px-4 py-3 border-b text-center font-semibold">{course.students}</td>
-                      <td className="px-4 py-3 border-b">{course.startDate}</td>
-                      <td className="px-4 py-3 border-b">{course.endDate}</td>
-                      <td className="px-4 py-3 border-b text-center">{course.ojtDuration} days</td>
+                      {course.startDate && <td className="px-4 py-3 border-b">{course.startDate}</td>}
+                      {course.endDate && <td className="px-4 py-3 border-b">{course.endDate}</td>}
+                      {course.ojtDuration && <td className="px-4 py-3 border-b text-center">{course.ojtDuration} days</td>}
                     </tr>
                   ))}
                 </tbody>
@@ -188,8 +155,20 @@ const BatchDetails = () => {
               <div className="p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-lg">
                 <h4 className="font-bold text-lg mb-3 text-green-800">Program Details</h4>
                 <p className="mb-2"><strong>Year:</strong> {batch.year}</p>
-                <p><strong>Ministry:</strong> Tourism, Govt of India</p>
+                <p><strong>Ministry:</strong> Ministry of Tourism</p>
               </div>
+            </div>
+            
+            {/* Download Button */}
+            <div className="mt-8 text-center">
+              <a 
+                href={`/data/HSRT_${batch.year}_Data.xlsx`}
+                download={`HSRT_${batch.year}_Student_Data.xlsx`}
+                className="inline-flex items-center px-6 py-3 bg-maroon text-white rounded-lg hover:bg-golden hover:text-maroon transition-all duration-300 shadow-lg hover:shadow-xl"
+              >
+                <i className="fas fa-download mr-2"></i>
+                Download Data
+              </a>
             </div>
           </div>
         ) : (

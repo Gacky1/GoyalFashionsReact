@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -8,7 +9,7 @@ const Contact = () => {
     division: '',
     subject: '',
     message: '',
-    documents: []
+    cv: null
   });
 
   const handleChange = (e) => {
@@ -19,21 +20,47 @@ const Contact = () => {
   };
 
   const handleFileChange = (e) => {
-    const files = Array.from(e.target.files);
+    const file = e.target.files[0];
     setFormData({
       ...formData,
-      documents: files
+      cv: file
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     
-    const emailBody = `Name: ${formData.name}%0D%0AEmail: ${formData.email}%0D%0APhone: ${formData.phone}%0D%0ADivision: ${formData.division}%0D%0ASubject: ${formData.subject}%0D%0A%0D%0AMessage:%0D%0A${formData.message}`;
+    // EmailJS configuration
+    const serviceId = 'service_gfpl'; // You'll need to replace this
+    const templateId = 'template_gfpl'; // You'll need to replace this
+    const publicKey = 'YOUR_PUBLIC_KEY'; // You'll need to replace this
     
-    const mailtoLink = `mailto:gfpl.skill@gmail.com?subject=Contact Form: ${encodeURIComponent(formData.subject)}&body=${emailBody}`;
-    
-    window.location.href = mailtoLink;
+    const templateParams = {
+      from_name: formData.name,
+      from_email: formData.email,
+      phone: formData.phone,
+      division: formData.division,
+      subject: formData.subject,
+      message: formData.message,
+      to_email: 'gfpl.skill@gmail.com'
+    };
+
+    try {
+      await emailjs.send(serviceId, templateId, templateParams, publicKey);
+      alert('Thank you! Your message has been sent successfully.');
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        division: '',
+        subject: '',
+        message: '',
+        cv: null
+      });
+    } catch (error) {
+      console.error('EmailJS error:', error);
+      alert('Sorry, there was an error sending your message. Please try again.');
+    }
   };
 
   return (
@@ -180,32 +207,30 @@ const Contact = () => {
                 ></textarea>
               </div>
               
-              <div className="mb-6">
-                <label htmlFor="documents" className="block mb-2 font-medium">Add Documents</label>
-                <input
-                  type="file"
-                  id="documents"
-                  name="documents"
-                  onChange={handleFileChange}
-                  multiple
-                  accept=".pdf,.doc,.docx,.jpg,.jpeg,.png"
-                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-maroon file:text-white hover:file:bg-golden hover:file:text-maroon"
-                />
-                <p className="text-sm text-gray-500 mt-2">Supported formats: PDF, DOC, DOCX, JPG, JPEG, PNG (Max 5MB each)</p>
-                {formData.documents.length > 0 && (
-                  <div className="mt-3">
-                    <p className="text-sm font-medium text-maroon">Selected files:</p>
-                    <ul className="text-sm text-gray-600">
-                      {formData.documents.map((file, index) => (
-                        <li key={index} className="flex items-center mt-1">
-                          <i className="fas fa-file mr-2 text-maroon"></i>
-                          {file.name} ({(file.size / 1024 / 1024).toFixed(2)} MB)
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-              </div>
+              {formData.division === 'Career' && (
+                <div className="mb-6">
+                  <label htmlFor="cv" className="block mb-2 font-medium">Upload CV <span className="text-red-500">*</span></label>
+                  <input
+                    type="file"
+                    id="cv"
+                    name="cv"
+                    onChange={handleFileChange}
+                    required
+                    accept=".pdf,.doc,.docx"
+                    className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-maroon file:text-white hover:file:bg-golden hover:file:text-maroon"
+                  />
+                  <p className="text-sm text-gray-500 mt-2">Supported formats: PDF, DOC, DOCX (Max 5MB)</p>
+                  {formData.cv && (
+                    <div className="mt-3">
+                      <p className="text-sm font-medium text-maroon">Selected file:</p>
+                      <div className="text-sm text-gray-600 flex items-center mt-1">
+                        <i className="fas fa-file mr-2 text-maroon"></i>
+                        {formData.cv.name} ({(formData.cv.size / 1024 / 1024).toFixed(2)} MB)
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
               
               <button
                 type="submit"
