@@ -460,39 +460,39 @@ const Education = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
               <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/fssai-logo.png" alt="FSSAI" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Food Safety Standards Authority</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/mot-logo.png" alt="Ministry of Textiles" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Ministry of Textiles</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/naps-logo.png" alt="NAPS" className="max-h-12 max-w-full" />
+                <img src="/images/Govt Partnership 1.jpg" alt="NAPS" className="max-h-12 max-w-full" />
               </div>
               <p className="text-sm font-medium">National Apprenticeship Promotion Scheme</p>
             </div>
             <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
               <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/tourism-logo.png" alt="Ministry of Tourism" className="max-h-12 max-w-full" />
+                <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-12 max-w-full" />
+              </div>
+              <p className="text-sm font-medium">RSLDC</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="h-16 flex items-center justify-center mb-4">
+                <img src="/images/Govt Partnership 3.jpg" alt="Ministry of Textile" className="max-h-12 max-w-full" />
+              </div>
+              <p className="text-sm font-medium">Ministry of Textile</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="h-16 flex items-center justify-center mb-4">
+                <img src="/images/Govt Partnership 4.jpg" alt="Samarth" className="max-h-12 max-w-full" />
+              </div>
+              <p className="text-sm font-medium">Samarth</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="h-16 flex items-center justify-center mb-4">
+                <img src="/images/Govt Partnership 5.jpg" alt="Skill India" className="max-h-12 max-w-full" />
+              </div>
+              <p className="text-sm font-medium">Hunar Se Rozgar Tak</p>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+              <div className="h-16 flex items-center justify-center mb-4">
+                <img src="/images/Ministry of Tourism.png" alt="Rajasthan Skill & Livelihoods Development Corporation" className="max-h-12 max-w-full" />
               </div>
               <p className="text-sm font-medium">Ministry of Tourism</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/skill-india-logo.png" alt="Skill India" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Skill India Mission</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/rsldc-logo.png" alt="RSLDC" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Rajasthan Skill & Livelihoods Development Corporation</p>
             </div>
           </div>
         </div>
