@@ -53,7 +53,7 @@ const Home = () => {
                 decade. Their quality and reliability are unmatched."
               </p>
               <div className="font-semibold text-white">
-                - Sarah Johnson, Fashion Designer
+                - Meera Agarwal, Fashion Designer
               </div>
             </div>
             <div className="bg-gradient-golden-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInUp" style={{'--stagger': 2}}>
@@ -65,7 +65,7 @@ const Home = () => {
                 stay feels like a luxury retreat."
               </p>
               <div className="font-semibold text-white">
-                - Michael Chen, Business Traveler
+                - Rajesh Kumar, Business Traveler
               </div>
             </div>
             <div className="bg-maroon rounded-2xl p-8 shadow-lg text-white animate-fadeInRight" style={{'--stagger': 3}}>
