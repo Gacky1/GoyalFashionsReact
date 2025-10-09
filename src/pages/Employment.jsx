@@ -18,15 +18,17 @@ const Employment = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 max-w-4xl mx-auto px-8 text-center">
-        <div className="animate-fadeInUp">
-          <h2 className="text-4xl font-bold mb-6 gradient-text">Bridging Skills to Employment</h2>
-          <p className="text-gray-600 leading-relaxed mb-6 text-xl">
-            At Goyal Fashions Private Limited, our <strong>Captive Employment Model</strong> bridges skill development with direct employment across our own businesses, ensuring job assurance for trained candidates in real-time industry environments.
-          </p>
-          <p className="text-gray-600 leading-relaxed text-xl">
-            With a <strong>total captive employment demand of 10,000+ employees</strong>, we provide guaranteed career opportunities across hospitality, manufacturing, retail, and education sectors.
-          </p>
+      <section className="py-20 max-w-6xl mx-auto px-8">
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text animate-fadeInUp">Bridging Skills to Employment</h2>
+        <div className="bg-gradient-to-br from-red-50 to-yellow-50 rounded-2xl p-12 shadow-lg animate-fadeInUp">
+          <div className="text-center">
+            <p className="text-gray-700 leading-relaxed mb-6 text-xl max-w-4xl mx-auto">
+              At Goyal Fashions Private Limited, our <strong>Captive Employment Model</strong> bridges skill development with direct employment across our own businesses, ensuring job assurance for trained candidates in real-time industry environments.
+            </p>
+            <p className="text-gray-700 leading-relaxed text-xl max-w-4xl mx-auto">
+              With a <strong>total captive employment demand of 10,000+ employees</strong>, we provide guaranteed career opportunities across hospitality, manufacturing, retail, and education sectors.
+            </p>
+          </div>
         </div>
       </section>
 
