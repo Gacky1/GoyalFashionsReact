@@ -18,24 +18,15 @@ const Employment = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 max-w-6xl mx-auto px-8">
-        <div className="grid md:grid-cols-2 gap-16 items-center">
-          <div className="animate-fadeInLeft">
-            <h2 className="text-4xl font-bold mb-6 gradient-text">Bridging Skills to Employment</h2>
-            <p className="text-gray-600 leading-relaxed mb-6">
-              At Goyal Fashions Private Limited, our <strong>Captive Employment Model</strong> bridges skill development with direct employment across our own businesses, ensuring job assurance for trained candidates in real-time industry environments.
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              With a <strong>total captive employment demand of 10,000+ employees</strong>, we provide guaranteed career opportunities across hospitality, manufacturing, retail, and education sectors.
-            </p>
-          </div>
-          <div className="rounded-2xl overflow-hidden shadow-custom h-96 animate-fadeInRight">
-            <img 
-              src="/images/Captive employment.png" 
-              alt="Employment Opportunities"
-              className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
-            />
-          </div>
+      <section className="py-20 max-w-4xl mx-auto px-8 text-center">
+        <div className="animate-fadeInUp">
+          <h2 className="text-4xl font-bold mb-6 gradient-text">Bridging Skills to Employment</h2>
+          <p className="text-gray-600 leading-relaxed mb-6 text-xl">
+            At Goyal Fashions Private Limited, our <strong>Captive Employment Model</strong> bridges skill development with direct employment across our own businesses, ensuring job assurance for trained candidates in real-time industry environments.
+          </p>
+          <p className="text-gray-600 leading-relaxed text-xl">
+            With a <strong>total captive employment demand of 10,000+ employees</strong>, we provide guaranteed career opportunities across hospitality, manufacturing, retail, and education sectors.
+          </p>
         </div>
       </section>
 
@@ -61,7 +52,7 @@ const Employment = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
-              src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" 
+              src="/images/Captive employment.png" 
               alt="Textile Manufacturing"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
@@ -153,7 +144,7 @@ const Employment = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
-              src="https://www.walk2mall.com/wp-content/uploads/2017/10/1508674004_Jaipur_City_Pulse.jpg?x38496" 
+              src="/images/CityPulse.jpeg" 
               alt="City Pulse Mall"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
