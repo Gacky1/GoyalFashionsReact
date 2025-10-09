@@ -26,7 +26,7 @@ const BatchDetails = () => {
           batchNo: "ROT01",
           courseName: "Room Attendant (ROT)",
           duration: "300 + 240 (OJT)",
-          students: 60
+          students: 90
         },
         {
           sno: "03",

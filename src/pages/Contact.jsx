@@ -6,6 +6,7 @@ const Contact = () => {
     name: '',
     email: '',
     phone: '',
+    category: '',
     division: '',
     subject: '',
     message: '',
@@ -39,6 +40,7 @@ const Contact = () => {
       from_name: formData.name,
       from_email: formData.email,
       phone: formData.phone,
+      category: formData.category,
       division: formData.division,
       subject: formData.subject,
       message: formData.message,
@@ -52,6 +54,7 @@ const Contact = () => {
         name: '',
         email: '',
         phone: '',
+        category: '',
         division: '',
         subject: '',
         message: '',
@@ -165,6 +168,23 @@ const Contact = () => {
               </div>
               
               <div className="mb-6">
+                <label htmlFor="category" className="block mb-2 font-medium">Category</label>
+                <select
+                  id="category"
+                  name="category"
+                  value={formData.category}
+                  onChange={handleChange}
+                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
+                >
+                  <option value="">Select Category</option>
+                  <option value="Retail">Retail</option>
+                  <option value="Hospitality">Hospitality</option>
+                  <option value="Real Estate">Real Estate</option>
+                  <option value="Textiles and Apparel">Textiles and Apparel</option>
+                </select>
+              </div>
+              
+              <div className="mb-6">
                 <label htmlFor="division" className="block mb-2 font-medium">Division of Interest</label>
                 <select
                   id="division"
@@ -174,10 +194,10 @@ const Contact = () => {
                   className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
                 >
                   <option value="">Select Division</option>
+                  <option value="Trainer">Trainer</option>
+                  <option value="Trainee">Trainee</option>
+                  <option value="Career">Work with us</option>
                   <option value="General Inquiry">General Inquiry</option>
-                  <option value="Skill Development">Skill Development</option>
-                  <option value="Career">Career</option>
-                  <option value="Other">Other</option>
                 </select>
               </div>
               
@@ -249,7 +269,7 @@ const Contact = () => {
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text animate-fadeInUp">
             Division Contacts
           </h2>
-          <div className="grid md:grid-cols-3 gap-8 stagger-animation">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation">
             <div className="bg-gradient-to-br from-blue-400 to-blue-600 text-white rounded-2xl p-8 shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 1}}>
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-hotel text-2xl text-white icon-bounce"></i>
@@ -282,7 +302,23 @@ const Contact = () => {
               </a>
             </div>
             
-            <div className="bg-gradient-to-br from-purple-400 to-purple-600 text-white rounded-2xl p-8 shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 3}}>
+            <div className="bg-gradient-to-br from-orange-400 to-orange-600 text-white rounded-2xl p-8 shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 3}}>
+              <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
+                <i className="fas fa-tshirt text-2xl text-white icon-bounce"></i>
+              </div>
+              <h3 className="text-xl font-semibold mb-4 text-white">Textile Division</h3>
+              <p className="opacity-90 mb-6 text-white">For garment manufacturing, textile production, and industry partnerships.</p>
+              <a 
+                href="https://garment-india.com/manufacturer/contact-us.php?gmb_id=60" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block w-full px-6 py-3 bg-white/20 border-2 border-white text-white rounded-full font-semibold hover:bg-white hover:text-orange-600 transition-all duration-300 text-center"
+              >
+                Visit Website
+              </a>
+            </div>
+            
+            <div className="bg-gradient-to-br from-purple-400 to-purple-600 text-white rounded-2xl p-8 shadow-lg vibrant-card animate-fadeInUp" style={{'--stagger': 4}}>
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-chart-line text-2xl text-white icon-bounce"></i>
               </div>

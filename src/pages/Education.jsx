@@ -37,35 +37,41 @@ const Education = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 max-w-4xl mx-auto px-8">
-        <div className="text-center animate-fadeInUp">
-          <h2 className="text-4xl font-bold mb-12 gradient-text">Building Human Capital</h2>
+      <section className="py-20 max-w-6xl mx-auto px-8">
+        <div className="animate-fadeInUp">
+          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">Building Human Capital</h2>
           
           {/* Testimonial */}
-          <div className="bg-white border-l-4 border-maroon p-8 rounded-xl shadow-lg text-left max-w-3xl mx-auto">
-            <div className="text-5xl mb-6 text-maroon opacity-70 text-center">
-              <i className="fas fa-quote-left"></i>
-            </div>
-            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
-              "It gives me great pride to be associated with Goyal Fashions Private Limited as a key client in the field of Skill Development and Training Implementation. Over the years, I have had the privilege to lead and manage multiple government skill initiatives on behalf of Goyal Fashions, contributing to India's vision of creating a skilled, self-reliant, and future-ready workforce."
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
-              "Through structured planning, compliance management, and on-ground execution, we have successfully associated Goyal Fashions with prestigious projects such as RSLDC, Hunar Se Rozgar Tak (HSRT), SAMARTH, ITDC, and NAPS–BTP. Each initiative has opened new avenues for growth, visibility, and impact—positioning Goyal Fashions as a trusted name in India's evolving skill ecosystem."
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
-              "My focus has always been on building sustainable frameworks—from project acquisition and execution to monitoring and placement—ensuring that every step taken on behalf of Goyal Fashions translates into real opportunities and measurable outcomes for the youth of India."
-            </p>
-            <p className="text-gray-700 leading-relaxed mb-6 italic text-lg">
-              "Together, we continue to strengthen Goyal Fashions' presence in the Skill Development Sector, expanding its role from a hospitality brand to a multi-sector contributor to national development and empowerment."
-            </p>
-            <div className="bg-gray-50 border-l-4 border-golden pl-6 py-4 mb-6 text-center">
-              <p className="text-maroon font-semibold italic text-xl">
-                "Skill is the bridge between aspiration and achievement—and we are committed to building that bridge."
-              </p>
-            </div>
-            <div className="text-right">
-              <p className="font-bold text-maroon text-lg">— Mr. Vaibhav Gupta</p>
-              <p className="text-gray-600">Skill Development Partner</p>
+          <div className="bg-white border-l-4 border-maroon p-12 rounded-xl shadow-lg max-w-7xl mx-auto">
+            <div className="grid md:grid-cols-12 gap-10 items-start">
+              <div className="md:col-span-1 flex justify-center md:justify-start">
+                <div className="text-3xl text-maroon opacity-70">
+                  <i className="fas fa-quote-left"></i>
+                </div>
+              </div>
+              <div className="md:col-span-11">
+                <p className="text-gray-700 leading-relaxed mb-5 text-base">
+                  "It gives me great pride to be associated with Goyal Fashions Private Limited as a key client in the field of Skill Development and Training Implementation. Over the years, I have had the privilege to lead and manage multiple government skill initiatives on behalf of Goyal Fashions, contributing to India's vision of creating a skilled, self-reliant, and future-ready workforce."
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-5 text-base">
+                  "Through structured planning, compliance management, and on-ground execution, we have successfully associated Goyal Fashions with prestigious projects such as RSLDC, Hunar Se Rozgar Tak (HSRT), SAMARTH, ITDC, and NAPS–BTP. Each initiative has opened new avenues for growth, visibility, and impact—positioning Goyal Fashions as a trusted name in India's evolving skill ecosystem."
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-5 text-base">
+                  "My focus has always been on building sustainable frameworks—from project acquisition and execution to monitoring and placement—ensuring that every step taken on behalf of Goyal Fashions translates into real opportunities and measurable outcomes for the youth of India."
+                </p>
+                <p className="text-gray-700 leading-relaxed mb-8 text-base">
+                  "Together, we continue to strengthen Goyal Fashions' presence in the Skill Development Sector, expanding its role from a hospitality brand to a multi-sector contributor to national development and empowerment."
+                </p>
+                <div className="bg-gray-50 border-l-4 border-golden pl-8 py-5 mb-8">
+                  <p className="text-maroon font-semibold text-lg">
+                    "Skill is the bridge between aspiration and achievement—and we are committed to building that bridge."
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="font-bold text-maroon text-base">— Mr. Vaibhav Gupta</p>
+                  <p className="text-gray-600 text-sm">Skill Development Partner</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -103,20 +109,20 @@ const Education = () => {
               <h3 className="font-bold text-lg mb-3 text-white">Real Estate</h3>
               <p className="opacity-90 text-white">Property management and real estate skills development</p>
             </div>
-            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 4}}>
+            {/* <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 4}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-swimming-pool"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Club & Recreation</h3>
               <p className="opacity-90 text-white">Service excellence in club and recreational facilities</p>
-            </div>
-            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 5}}>
+            </div> */}
+            {/* <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 5}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-tools"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Skill Development</h3>
               <p className="opacity-90 text-white">Comprehensive skill training across multiple industries</p>
-            </div>
+            </div> */}
             <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 6}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-shopping-cart"></i>
@@ -124,62 +130,65 @@ const Education = () => {
               <h3 className="font-bold text-lg mb-3 text-white">Retail Services</h3>
               <p className="opacity-90 text-white">Customer service and retail management training</p>
             </div>
-            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 7}}>
+            {/* <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 7}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-graduation-cap"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Education</h3>
               <p className="opacity-90 text-white">Academic excellence and professional education programs</p>
-            </div>
-            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 8}}>
+            </div> */}
+            {/* <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 8}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-solar-panel"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Solar Energy</h3>
               <p className="opacity-90 text-white">Green energy and sustainable technology skills</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
 
       {/* Skill Development Objectives */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Skill Development Objectives</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 gradient-text">Our Skill Development Objectives</h2>
+        <p className="text-center text-xl text-gray-600 mb-12 max-w-4xl mx-auto">
+          We aim to empower individuals with hands-on training, practical exposure, and employment-ready skills that meet the evolving demands of the textile, fashion, and allied sectors.
+        </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-briefcase text-blue-600 text-2xl"></i>
+              <i className="fas fa-arrow-up text-blue-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Job-Ready Training</h3>
-            <p className="text-gray-600">Deliver practical training across our core sectors</p>
+            <h3 className="font-bold text-xl mb-3">Enhancing Employability</h3>
+            <p className="text-gray-600">Building job-ready skills and competencies for immediate employment opportunities</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-users text-green-600 text-2xl"></i>
+              <i className="fas fa-handshake text-green-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Inclusive Skilling</h3>
-            <p className="text-gray-600">Promote skilling for rural youth and women</p>
+            <h3 className="font-bold text-xl mb-3">Supporting Government Skill Initiatives</h3>
+            <p className="text-gray-600">Partnering with government programs to maximize skill development impact</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-handshake text-purple-600 text-2xl"></i>
+              <i className="fas fa-users text-purple-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">MSME Support</h3>
-            <p className="text-gray-600">Support MSMEs with trained, productive workforce</p>
+            <h3 className="font-bold text-xl mb-3">Creating a Sustainable Talent Pipeline</h3>
+            <p className="text-gray-600">Developing continuous talent supply for different sectors and industries</p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-laptop text-red-600 text-2xl"></i>
+              <i className="fas fa-lightbulb text-red-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Digital & Soft Skills</h3>
-            <p className="text-gray-600">Embed digital skills, soft skills, and workplace ethics</p>
+            <h3 className="font-bold text-xl mb-3">Promoting Self-Reliance and Entrepreneurship</h3>
+            <p className="text-gray-600">Fostering entrepreneurial mindset and self-employment opportunities</p>
           </div>
           <div className="text-center md:col-span-2 lg:col-span-1">
             <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
-              <i className="fas fa-chart-line text-yellow-600 text-2xl"></i>
+              <i className="fas fa-cogs text-yellow-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Skilled Economy</h3>
-            <p className="text-gray-600">Contribute to India's skilled economy through structured programs</p>
+            <h3 className="font-bold text-xl mb-3">Developing Industry-Ready Professionals</h3>
+            <p className="text-gray-600">Training professionals who meet current industry standards and requirements</p>
           </div>
         </div>
       </section>
@@ -211,7 +220,6 @@ const Education = () => {
             <div className="bg-white p-6 rounded-xl shadow-lg">
               <h3 className="font-bold text-xl mb-4 text-purple-600">Food Safety & Hygiene</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• FoSTaC Certification (FSSAI)</li>
                 <li>• Food Handler Training for Cafés & Hotels</li>
                 <li>• Kitchen Safety & Sanitation</li>
               </ul>
@@ -428,27 +436,62 @@ const Education = () => {
             </thead>
             <tbody>
               <tr className="border-t">
-                <td className="px-6 py-4">RSLDC – Multiple Schemes</td>
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
+                      <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-w-16 max-h-16 object-contain" />
+                    </div>
+                    RSLDC – Multiple Schemes
+                  </div>
+                </td>
                 <td className="px-6 py-4">Textile, Hospitality</td>
                 <td className="px-6 py-4 font-bold text-blue-600">3,000+</td>
               </tr>
               <tr className="border-t bg-gray-50">
-                <td className="px-6 py-4">NAPS (Apprenticeship)</td>
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
+                      <img src="/images/Govt Partnership 1.jpg" alt="NAPS" className="max-w-16 max-h-16 object-contain" />
+                    </div>
+                    NAPS (Apprenticeship)
+                  </div>
+                </td>
                 <td className="px-6 py-4">Textile</td>
                 <td className="px-6 py-4 font-bold text-blue-600">480+</td>
               </tr>
               <tr className="border-t">
-                <td className="px-6 py-4">Nai Manzil</td>
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
+                      <img src="/images/NaiManzil.jpg" alt="Nai Manzil" className="max-w-16 max-h-16 object-contain" />
+                    </div>
+                    Nai Manzil
+                  </div>
+                </td>
                 <td className="px-6 py-4">Textile</td>
-                <td className="px-6 py-4 font-bold text-blue-600">Data Available</td>
+                <td className="px-6 py-4 font-bold text-blue-600">413+</td>
               </tr>
               <tr className="border-t bg-gray-50">
-                <td className="px-6 py-4">Samarth – MoT</td>
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
+                      <img src="/images/Samarth MOT.jpg" alt="Samarth" className="max-w-16 max-h-16 object-contain" />
+                    </div>
+                    Samarth – MoT
+                  </div>
+                </td>
                 <td className="px-6 py-4">Textile</td>
                 <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
               </tr>
               <tr className="border-t">
-                <td className="px-6 py-4">HSRT – MoT</td>
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
+                      <img src="/images/Ministry of Tourism.png" alt="HSRT" className="max-w-16 max-h-16 object-contain" />
+                    </div>
+                    HSRT – MoT
+                  </div>
+                </td>
                 <td className="px-6 py-4">Hospitality</td>
                 <td className="px-6 py-4 font-bold text-blue-600">300</td>
               </tr>
@@ -493,47 +536,36 @@ const Education = () => {
       )}
 
 
-
       {/* Government Partnerships */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Government Partnerships</h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Govt Partnership 1.jpg" alt="NAPS" className="max-h-12 max-w-full" />
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-5xl">
+              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-24 flex items-center justify-center mb-6">
+                  <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-20 max-w-full" />
+                </div>
+                <p className="text-lg font-medium">RSLDC</p>
               </div>
-              <p className="text-sm font-medium">National Apprenticeship Promotion Scheme</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-12 max-w-full" />
+              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-24 flex items-center justify-center mb-6">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg" alt="Ministry of Textile" className="max-h-20 max-w-full" />
+                </div>
+                <p className="text-lg font-medium">Ministry of Textile</p>
               </div>
-              <p className="text-sm font-medium">RSLDC</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Govt Partnership 3.jpg" alt="Ministry of Textile" className="max-h-12 max-w-full" />
+              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-24 flex items-center justify-center mb-6">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Ministry_of_Tourism_India.svg" alt="Ministry of Tourism" className="max-h-20 max-w-full" />
+                </div>
+                <p className="text-lg font-medium">Ministry of Tourism</p>
               </div>
-              <p className="text-sm font-medium">Ministry of Textile</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Govt Partnership 4.jpg" alt="Samarth" className="max-h-12 max-w-full" />
+              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-24 flex items-center justify-center mb-6">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Ministry_of_Minority_Affairs.svg" alt="Ministry of Tourism" className="max-h-20 max-w-full" />
+                </div>
+                <p className="text-lg font-medium">Ministry of Minority Affairs</p>
               </div>
-              <p className="text-sm font-medium">Samarth</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Govt Partnership 5.jpg" alt="Skill India" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Hunar Se Rozgar Tak</p>
-            </div>
-            <div className="bg-white p-6 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-              <div className="h-16 flex items-center justify-center mb-4">
-                <img src="/images/Ministry of Tourism.png" alt="Rajasthan Skill & Livelihoods Development Corporation" className="max-h-12 max-w-full" />
-              </div>
-              <p className="text-sm font-medium">Ministry of Tourism</p>
             </div>
           </div>
         </div>
