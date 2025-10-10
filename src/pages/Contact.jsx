@@ -85,7 +85,7 @@ const Contact = () => {
       <section className="py-20 max-w-6xl mx-auto px-8">
         <div className="grid md:grid-cols-2 gap-16">
           <div className="animate-fadeInLeft">
-            <h2 className="text-4xl font-bold mb-6 gradient-text">Let's Connect</h2>
+            <h2 className="text-4xl font-bold mb-6 gradient-text">Let's Connect to Skill Development Division</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
               We invite <strong>educational institutions, CSR partners, NGOs, and government agencies</strong> to collaborate with us in delivering impactful skill education across India.
             </p>

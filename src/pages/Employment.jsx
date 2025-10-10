@@ -54,7 +54,7 @@ const Employment = () => {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
-              src="/images/Captive employment.png" 
+              src="/images/Textile .jpg" 
               alt="Textile Manufacturing"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
@@ -84,28 +84,29 @@ const Employment = () => {
           </div>
         </div>
 
-        {/* Education */}
+        {/* Retail */}
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <i className="fas fa-graduation-cap text-primary mr-2"></i>
-              Education – AIHMAS
+              <i className="fas fa-shopping-bag text-primary mr-2"></i>
+              Retail – City Pulse Mall (Jaipur)
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              The Ananta Institute of Hotel Management & Allied Studies (AIHMAS) is a premier hospitality education institution operating under the Goyal Fashions education vertical.<strong> Affiliated with Rajasthan ILD Skills University and recognized by UGC</strong>, the institute has earned a reputation for academic excellence and practical training.
+              We developed City Pulse Mall in Jaipur—a curated shopping destination for fashion, lifestyle, driven by consumer-first experiences, combining quality, value, and convenience.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              <strong>Campus: </strong>Spread over one acre with a WiFi-enabled, modern campus featuring well-equipped classrooms, labs, training kitchens, library, and hospitality simulation areas.
+              The mall provides diverse employment opportunities in <strong>retail management, customer service, operations, security, and facility management</strong>, creating a comprehensive retail ecosystem in Jaipur.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
-              src="https://aihmas.com/wp-content/uploads/2024/07/bestAcademic-1024x683-1.jpeg" 
-              alt="Aihmas"
+              src="/images/CityPulse.jpeg" 
+              alt="City Pulse Mall"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>
         </div>
+       
 
         {/* Renewable Energy */}
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
@@ -130,24 +131,25 @@ const Employment = () => {
           </div>
         </div>
 
-        {/* Retail */}
+
+ {/* Education */}
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
-              <i className="fas fa-shopping-bag text-primary mr-2"></i>
-              Retail – City Pulse Mall (Jaipur)
+              <i className="fas fa-graduation-cap text-primary mr-2"></i>
+              Education – AIHMAS
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              We developed City Pulse Mall in Jaipur—a curated shopping destination for fashion, lifestyle, driven by consumer-first experiences, combining quality, value, and convenience.
+              The Ananta Institute of Hotel Management & Allied Studies (AIHMAS) is a premier hospitality education institution operating under the Goyal Fashions education vertical.<strong> Affiliated with Rajasthan ILD Skills University and recognized by UGC</strong>, the institute has earned a reputation for academic excellence and practical training.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              The mall provides diverse employment opportunities in <strong>retail management, customer service, operations, security, and facility management</strong>, creating a comprehensive retail ecosystem in Jaipur.
+              <strong>Campus: </strong>Spread over one acre with a WiFi-enabled, modern campus featuring well-equipped classrooms, labs, training kitchens, library, and hospitality simulation areas.
             </p>
           </div>
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
-              src="/images/CityPulse.jpeg" 
-              alt="City Pulse Mall"
+              src="https://aihmas.com/wp-content/uploads/2024/07/bestAcademic-1024x683-1.jpeg" 
+              alt="Aihmas"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>

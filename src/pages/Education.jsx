@@ -194,7 +194,7 @@ const Education = () => {
       </section>
 
       {/* Skill Training Domains */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Skill Training Domains</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -234,7 +234,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Training Model */}
       <section className="py-20 max-w-6xl mx-auto px-8">
@@ -397,7 +397,7 @@ const Education = () => {
       <section className="py-20 colorful-bg text-white">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 text-white">Impact So Far</h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold mb-2 text-white">11,000+</div>
               <p className="text-xl text-white">Youth Trained</p>
@@ -409,13 +409,20 @@ const Education = () => {
               <p className="text-sm opacity-80 text-white">Through Ananta Hotels and Goyal Group Units</p>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2 text-white">500+</div>
-              <p className="text-xl text-white">Women-led SHGs</p>
-              <p className="text-sm opacity-80 text-white">Development in textiles packaging & stitching</p>
+              <div className="text-5xl font-bold mb-2 text-white">100%</div>
+              <p className="text-xl text-white">Placement Assistance</p>
+              <p className="text-sm opacity-80 text-white">Comprehensive job placement support for all trainees</p>
             </div>
             <div>
-              <div className="text-5xl font-bold mb-2 text-white">A+</div>
-              <p className="text-xl text-white">Government Recognition</p>
+              <div className="text-5xl font-bold mb-2 text-white">500+</div>
+              <p className="text-xl text-white">Women-led SHGs</p>
+              <p className="text-sm opacity-80 text-white">Development in textile packaging & stitching</p>
+            </div>
+            <div>
+              <div className="text-5xl font-bold mb-2 text-white">
+                <i className="fas fa-arrow-trend-up"></i>
+              </div>
+              <p className="text-xl text-white">Leading Government TP</p>
               <p className="text-sm opacity-80 text-white">Strong record under Central & State schemes</p>
             </div>
           </div>
@@ -541,30 +548,36 @@ const Education = () => {
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Government Partnerships</h2>
           <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-5xl">
-              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="h-24 flex items-center justify-center mb-6">
-                  <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-20 max-w-full" />
+            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-7xl">
+              <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-32 flex items-center justify-center mb-4">
+                  <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-28 max-w-full" />
                 </div>
-                <p className="text-lg font-medium">RSLDC</p>
+                <p className="text-xl font-semibold">RSLDC</p>
               </div>
-              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="h-24 flex items-center justify-center mb-6">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg" alt="Ministry of Textile" className="max-h-20 max-w-full" />
+              <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-32 flex items-center justify-center mb-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg" alt="Ministry of Textile" className="max-h-28 max-w-full" />
                 </div>
-                <p className="text-lg font-medium">Ministry of Textiles</p>
+                <p className="text-xl font-semibold">Ministry of Textiles</p>
               </div>
-              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="h-24 flex items-center justify-center mb-6">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Ministry_of_Tourism_India.svg" alt="Ministry of Tourism" className="max-h-20 max-w-full" />
+              <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-32 flex items-center justify-center mb-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Ministry_of_Tourism_India.svg" alt="Ministry of Tourism" className="max-h-28 max-w-full" />
                 </div>
-                <p className="text-lg font-medium">Ministry of Tourism</p>
+                <p className="text-xl font-semibold">Ministry of Tourism</p>
               </div>
-              <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
-                <div className="h-24 flex items-center justify-center mb-6">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Ministry_of_Minority_Affairs.svg" alt="Ministry of Tourism" className="max-h-20 max-w-full" />
+              <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-32 flex items-center justify-center mb-4">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Ministry_of_Minority_Affairs.svg" alt="Ministry of Tourism" className="max-h-28 max-w-full" />
                 </div>
-                <p className="text-lg font-medium">Ministry of Minority Affairs</p>
+                <p className="text-xl font-semibold">Ministry of Minority Affairs</p>
+              </div>
+              <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
+                <div className="h-32 flex items-center justify-center mb-4">
+                  <img src="/images/Ministry of Skill Development.jpg" alt="Ministry of Skill Development" className="max-h-28 max-w-full" />
+                </div>
+                <p className="text-xl font-semibold">Ministry of Skill Development</p>
               </div>
             </div>
           </div>
