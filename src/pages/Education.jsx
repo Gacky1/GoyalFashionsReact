@@ -571,6 +571,81 @@ const Education = () => {
         </div>
       </section>
 
+      {/* Ananta Group Divisions */}
+      <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
+        <div className="max-w-6xl mx-auto px-8">
+          <h2 className="text-4xl font-bold text-center -mt-12 mb-20 gradient-text ">
+            Connecting Skills
+          </h2>
+          <div className="flex justify-center">
+            <div className="relative">
+              {/* Center Circle */}
+              <div className="w-48 h-48 bg-white rounded-full shadow-xl flex flex-col items-center justify-center border-4 border-blue-200">
+                <div className="text-blue-600 font-bold text-2xl">Connecting</div>
+                <div className="text-blue-600 font-bold text-2xl">Skills</div>
+              </div>
+              
+              {/* Division Cards arranged in circle */}
+              <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
+                <div className="w-24 h-24 bg-blue-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-hands-helping text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Skill</span>
+                </div>
+              </div>
+              
+              <div className="absolute -top-12 -right-12">
+                <div className="w-24 h-24 bg-yellow-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-globe text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Clubs</span>
+                </div>
+              </div>
+              
+              <div className="absolute top-1/2 -right-16 transform -translate-y-1/2">
+                <div className="w-24 h-24 bg-orange-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-hotel text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Hospitality</span>
+                </div>
+              </div>
+              
+              <div className="absolute -bottom-12 -right-12">
+                <div className="w-24 h-24 bg-green-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-tshirt text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Textile</span>
+                </div>
+              </div>
+              
+              <div className="absolute -bottom-16 left-1/2 transform -translate-x-1/2">
+                <div className="w-24 h-24 bg-purple-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-home text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Real Estate</span>
+                </div>
+              </div>
+              
+              <div className="absolute -bottom-12 -left-12">
+                <div className="w-24 h-24 bg-pink-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-graduation-cap text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Education</span>
+                </div>
+              </div>
+              
+              <div className="absolute top-1/2 -left-16 transform -translate-y-1/2">
+                <div className="w-24 h-24 bg-indigo-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-solar-panel text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Solar Energy</span>
+                </div>
+              </div>
+              
+              <div className="absolute -top-12 -left-12">
+                <div className="w-24 h-24 bg-red-500 rounded-full flex flex-col items-center justify-center text-white shadow-lg">
+                  <i className="fas fa-shopping-cart text-lg mb-1"></i>
+                  <span className="text-xs font-semibold">Retail</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
        {/* GFPL Skilling Map */}
       <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">

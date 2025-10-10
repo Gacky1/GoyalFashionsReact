@@ -20,7 +20,7 @@ const Navbar = () => {
     { to: '/about', label: 'About Us' },
     { to: '/education', label: 'Skill Development' },
     { to: '/employment', label: 'Captive Employment' },
-    { to: '/contact', label: 'Contact' },
+    { to: '/contact', label: 'Contact Us' },
   ];
 
   return (
