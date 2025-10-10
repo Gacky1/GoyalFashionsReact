@@ -405,7 +405,7 @@ const Education = () => {
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">100%</div>
-              <p className="text-xl text-white">Captive Employment</p>
+              <p className="text-xl text-white">Captive Employment Opportunities</p>
               <p className="text-sm opacity-80 text-white">Through Ananta Hotels and Goyal Group Units</p>
             </div>
             <div>
