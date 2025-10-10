@@ -49,7 +49,7 @@ const Home = () => {
                 <i className="fas fa-quote-left"></i>
               </div>
               <p className="mb-6 text-white">
-                "Goyal Fashions has been our trusted textile partner for over a
+                "Goyal Fashions has been our trusted textiles partner for over a
                 decade. Their quality and reliability are unmatched."
               </p>
               <div className="font-semibold text-white">

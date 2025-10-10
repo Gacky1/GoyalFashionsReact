@@ -306,8 +306,8 @@ const Contact = () => {
               <div className="w-15 h-15 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                 <i className="fas fa-tshirt text-2xl text-white icon-bounce"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-white">Textile Division</h3>
-              <p className="opacity-90 mb-6 text-white">For garment manufacturing, textile production, and industry partnerships.</p>
+              <h3 className="text-xl font-semibold mb-4 text-white">Textiles Division</h3>
+              <p className="opacity-90 mb-6 text-white">For garment manufacturing, textiles production, and industry partnerships.</p>
               <a 
                 href="https://garment-india.com/manufacturer/contact-us.php?gmb_id=60" 
                 target="_blank" 

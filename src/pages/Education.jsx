@@ -93,7 +93,7 @@ const Education = () => {
                 <i className="fas fa-tshirt"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Textiles & Apparel</h3>
-              <p className="opacity-90 text-white">Industry-specific training for garment manufacturing and textile production</p>
+              <p className="opacity-90 text-white">Industry-specific training for garment manufacturing and textiles production</p>
             </div>
             <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 2}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
@@ -152,7 +152,7 @@ const Education = () => {
       <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-6 gradient-text">Our Skill Development Objectives</h2>
         <p className="text-center text-xl text-gray-600 mb-12 max-w-4xl mx-auto">
-          We aim to empower individuals with hands-on training, practical exposure, and employment-ready skills that meet the evolving demands of the textile, fashion, and allied sectors.
+          We aim to empower individuals with hands-on training, practical exposure, and employment-ready skills that meet the evolving demands of the textiles, fashion, and allied sectors.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
@@ -199,7 +199,7 @@ const Education = () => {
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Skill Training Domains</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-white p-6 rounded-xl shadow-lg">
-              <h3 className="font-bold text-xl mb-4 text-blue-600">Textile & Apparel</h3>
+              <h3 className="font-bold text-xl mb-4 text-blue-600">Textiles & Apparel</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Sewing Machine Operator (SMO)</li>
                 <li>• Garment Checker</li>
@@ -411,7 +411,7 @@ const Education = () => {
             <div>
               <div className="text-5xl font-bold mb-2 text-white">500+</div>
               <p className="text-xl text-white">Women-led SHGs</p>
-              <p className="text-sm opacity-80 text-white">Development in textile packaging & stitching</p>
+              <p className="text-sm opacity-80 text-white">Development in textiles packaging & stitching</p>
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">A+</div>
@@ -444,7 +444,7 @@ const Education = () => {
                     RSLDC – Multiple Schemes
                   </div>
                 </td>
-                <td className="px-6 py-4">Textile, Hospitality</td>
+                <td className="px-6 py-4">Textiles, Hospitality</td>
                 <td className="px-6 py-4 font-bold text-blue-600">3,000+</td>
               </tr>
               <tr className="border-t bg-gray-50">
@@ -456,7 +456,7 @@ const Education = () => {
                     NAPS (Apprenticeship)
                   </div>
                 </td>
-                <td className="px-6 py-4">Textile</td>
+                <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">480+</td>
               </tr>
               <tr className="border-t">
@@ -468,7 +468,7 @@ const Education = () => {
                     Nai Manzil
                   </div>
                 </td>
-                <td className="px-6 py-4">Textile</td>
+                <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">413+</td>
               </tr>
               <tr className="border-t bg-gray-50">
@@ -480,7 +480,7 @@ const Education = () => {
                     Samarth – MoT
                   </div>
                 </td>
-                <td className="px-6 py-4">Textile</td>
+                <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
               </tr>
               <tr className="border-t">
@@ -552,7 +552,7 @@ const Education = () => {
                 <div className="h-24 flex items-center justify-center mb-6">
                   <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg" alt="Ministry of Textile" className="max-h-20 max-w-full" />
                 </div>
-                <p className="text-lg font-medium">Ministry of Textile</p>
+                <p className="text-lg font-medium">Ministry of Textiles</p>
               </div>
               <div className="bg-white p-10 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-24 flex items-center justify-center mb-6">

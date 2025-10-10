@@ -75,7 +75,7 @@ const About = () => {
             India's Premier Flagship Enterprise
           </h1>
           <p className="text-xl text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-            40+ Years of Excellence in Textile Manufacturing & Business Innovation
+            40+ Years of Excellence in Textiles Manufacturing & Business Innovation
           </p>
         </div>
       </section>
@@ -88,7 +88,7 @@ const About = () => {
             <p className="text-gray-600 leading-relaxed mb-6 text-justify">
               Founded on 6 March 1981, Goyal Fashions Private Limited is a reputable private company
               headquartered in Jaipur, Rajasthan. Incorporated under CIN U18101RJ1981PTC018803, the
-              company has grown from its textile roots to become a flagship for a diverse group spanning textiles,
+              company has grown from its textiles roots to become a flagship for a diverse group spanning textiles,
               hospitality, solar energy, and retail.
             </p>
             <p className="text-gray-600 leading-relaxed text-justify">
@@ -119,7 +119,7 @@ const About = () => {
           <div className="animate-fadeInLeft">
             <h3 className="text-2xl font-semibold mb-6 text-maroon">Four Decades of Excellence</h3>
             <p className="text-gray-600 leading-relaxed mb-6">
-              Since 1981, Goyal Fashions has been at the forefront of India's textile revolution. What began as a vision to create world-class garments has evolved into a legacy of excellence spanning multiple industries.
+              Since 1981, Goyal Fashions has been at the forefront of India's textiles revolution. What began as a vision to create world-class garments has evolved into a legacy of excellence spanning multiple industries.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
               Our commitment to quality and innovation has earned us recognition as a trusted partner for international brands and a respected name in the domestic market.
@@ -154,7 +154,7 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-maroon-golden rounded-full flex items-center justify-center mx-auto mb-4">
                 <i className="fas fa-tshirt text-2xl text-white"></i>
               </div>
-              <h3 className="text-xl font-semibold mb-3 text-maroon">Textile</h3>
+              <h3 className="text-xl font-semibold mb-3 text-maroon">Textiles</h3>
               <p className="text-gray-600 text-sm">Premium garment manufacturing and export with 40+ years of expertise</p>
             </div>
             
