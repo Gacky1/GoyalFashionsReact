@@ -670,7 +670,7 @@ const Education = () => {
             alt="GFPL Skilling Map - Rajasthan" 
             className="w-full max-w-4xl mx-auto rounded-2xl shadow-custom"
           />
-          <div className="mt-8 flex flex-wrap justify-center gap-8">
+          {/* <div className="mt-8 flex flex-wrap justify-center gap-8">
             <div className="flex items-center">
               <div className="w-5 h-5 bg-red-600 mr-4"></div>
               <span><strong>Samarth Project:</strong> 17 Centers</span>
@@ -679,7 +679,7 @@ const Education = () => {
               <div className="w-5 h-5 bg-blue-600 mr-4"></div>
               <span><strong>Hunar Se Rozgar Tak:</strong> 05 Centers</span>
             </div>
-          </div>
+          </div> */}
           {/* <div className="mt-8">
             <a 
               href="/WEb Upload Data GFPL_Excel Sheet.xlsx" 
