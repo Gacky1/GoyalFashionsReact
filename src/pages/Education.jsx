@@ -1,5 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useRef, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Education = () => {
   const [showHSRTList, setShowHSRTList] = useState(false);
@@ -8,7 +8,7 @@ const Education = () => {
 
   useEffect(() => {
     if (showHSRTList && hsrtListRef.current) {
-      hsrtListRef.current.scrollIntoView({ behavior: 'smooth' });
+      hsrtListRef.current.scrollIntoView({ behavior: "smooth" });
     }
   }, [showHSRTList]);
 
@@ -18,8 +18,8 @@ const Education = () => {
       name: "HSRT 2024-25",
       year: "2024-25",
       date: "Current Batch",
-      courses: []
-    }
+      courses: [],
+    },
   ];
   return (
     <div>
@@ -30,8 +30,11 @@ const Education = () => {
           <h1 className=" text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
             Empowering People, Enabling Progress
           </h1>
-          <p className="text-xl text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-           Skill Development for a Stronger India
+          <p
+            className="text-xl text-shadow-sm animate-fadeInUp"
+            style={{ animationDelay: "0.3s" }}
+          >
+            Skill Development for a Stronger India
           </p>
         </div>
       </section>
@@ -39,8 +42,10 @@ const Education = () => {
       {/* Intro Section */}
       <section className="py-20 max-w-6xl mx-auto px-8">
         <div className="animate-fadeInUp">
-          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">Building Human Capital</h2>
-          
+          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">
+            Building Human Capital
+          </h2>
+
           {/* Testimonial */}
           <div className="bg-white border-l-4 border-maroon p-12 rounded-xl shadow-lg max-w-7xl mx-auto">
             <div className="grid md:grid-cols-12 gap-10 items-start">
@@ -51,25 +56,49 @@ const Education = () => {
               </div>
               <div className="md:col-span-11">
                 <p className="text-gray-700 leading-relaxed mb-5 text-base">
-                  "It gives me great pride to be associated with Goyal Fashions Private Limited as a key client in the field of Skill Development and Training Implementation. Over the years, I have had the privilege to lead and manage multiple government skill initiatives on behalf of Goyal Fashions, contributing to India's vision of creating a skilled, self-reliant, and future-ready workforce."
+                  "It gives me great pride to be associated with Goyal Fashions
+                  Private Limited as a key client in the field of Skill
+                  Development and Training Implementation. Over the years, I
+                  have had the privilege to lead and manage multiple government
+                  skill initiatives on behalf of Goyal Fashions, contributing to
+                  India's vision of creating a skilled, self-reliant, and
+                  future-ready workforce."
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-5 text-base">
-                  "Through structured planning, compliance management, and on-ground execution, we have successfully associated Goyal Fashions with prestigious projects such as RSLDC, Hunar Se Rozgar Tak (HSRT), SAMARTH, ITDC, and NAPS–BTP. Each initiative has opened new avenues for growth, visibility, and impact—positioning Goyal Fashions as a trusted name in India's evolving skill ecosystem."
+                  "Through structured planning, compliance management, and
+                  on-ground execution, we have successfully associated Goyal
+                  Fashions with prestigious projects such as RSLDC, Hunar Se
+                  Rozgar Tak (HSRT), SAMARTH, ITDC, and NAPS–BTP. Each
+                  initiative has opened new avenues for growth, visibility, and
+                  impact—positioning Goyal Fashions as a trusted name in India's
+                  evolving skill ecosystem."
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-5 text-base">
-                  "My focus has always been on building sustainable frameworks—from project acquisition and execution to monitoring and placement—ensuring that every step taken on behalf of Goyal Fashions translates into real opportunities and measurable outcomes for the youth of India."
+                  "My focus has always been on building sustainable
+                  frameworks—from project acquisition and execution to
+                  monitoring and placement—ensuring that every step taken on
+                  behalf of Goyal Fashions translates into real opportunities
+                  and measurable outcomes for the youth of India."
                 </p>
                 <p className="text-gray-700 leading-relaxed mb-8 text-base">
-                  "Together, we continue to strengthen Goyal Fashions' presence in the Skill Development Sector, expanding its role from a hospitality brand to a multi-sector contributor to national development and empowerment."
+                  "Together, we continue to strengthen Goyal Fashions' presence
+                  in the Skill Development Sector, expanding its role from a
+                  hospitality brand to a multi-sector contributor to national
+                  development and empowerment."
                 </p>
                 <div className="bg-gray-50 border-l-4 border-golden pl-8 py-5 mb-8">
                   <p className="text-maroon font-semibold text-lg">
-                    "Skill is the bridge between aspiration and achievement—and we are committed to building that bridge."
+                    "Skill is the bridge between aspiration and achievement—and
+                    we are committed to building that bridge."
                   </p>
                 </div>
                 <div className="text-right">
-                  <p className="font-bold text-maroon text-base">— Mr. Vaibhav Gupta</p>
-                  <p className="text-gray-600 text-sm">Skill Development Partner</p>
+                  <p className="font-bold text-maroon text-base">
+                    — Mr. Vaibhav Gupta
+                  </p>
+                  <p className="text-gray-600 text-sm">
+                    Skill Development Partner
+                  </p>
                 </div>
               </div>
             </div>
@@ -81,33 +110,55 @@ const Education = () => {
       <section className="py-20 bg-off-white">
         <div className="max-w-6xl mx-auto px-8">
           <div className="text-center mb-16 animate-fadeInUp">
-            <h2 className="text-4xl font-bold mb-6 gradient-text">Skill Development: Building Skills for Today & Tomorrow</h2>
+            <h2 className="text-4xl font-bold mb-6 gradient-text">
+              Skill Development: Building Skills for Today & Tomorrow
+            </h2>
             <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Goyal Fashions Pvt. Ltd. has diversified its skilling initiatives across the sectors where we operate. Each vertical offers hands-on training tailored to industry-specific requirements.
+              Goyal Fashions Pvt. Ltd. has diversified its skilling initiatives
+              across the sectors where we operate. Each vertical offers hands-on
+              training tailored to industry-specific requirements.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 stagger-animation">
-            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 1}}>
+            <div
+              className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp"
+              style={{ "--stagger": 1 }}
+            >
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-tshirt"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3 text-white">Textiles & Apparel</h3>
-              <p className="opacity-90 text-white">Industry-specific training for garment manufacturing and textiles production</p>
+              <h3 className="font-bold text-lg mb-3 text-white">
+                Textiles & Apparel
+              </h3>
+              <p className="opacity-90 text-white">
+                Industry-specific training for garment manufacturing and
+                textiles production
+              </p>
             </div>
-            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 2}}>
+            <div
+              className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp"
+              style={{ "--stagger": 2 }}
+            >
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-hotel"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Hospitality</h3>
-              <p className="opacity-90 text-white">Comprehensive hospitality training programs</p>
+              <p className="opacity-90 text-white">
+                Comprehensive hospitality training programs
+              </p>
             </div>
-            <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 3}}>
+            <div
+              className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp"
+              style={{ "--stagger": 3 }}
+            >
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-building"></i>
               </div>
               <h3 className="font-bold text-lg mb-3 text-white">Real Estate</h3>
-              <p className="opacity-90 text-white">Property management and real estate skills development</p>
+              <p className="opacity-90 text-white">
+                Property management and real estate skills development
+              </p>
             </div>
             {/* <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 4}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
@@ -123,12 +174,19 @@ const Education = () => {
               <h3 className="font-bold text-lg mb-3 text-white">Skill Development</h3>
               <p className="opacity-90 text-white">Comprehensive skill training across multiple industries</p>
             </div> */}
-            <div className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 6}}>
+            <div
+              className="bg-gradient-golden-maroon text-white p-6 rounded-xl shadow-lg animate-fadeInUp"
+              style={{ "--stagger": 6 }}
+            >
               <div className="text-3xl mb-4 icon-bounce text-white">
                 <i className="fas fa-shopping-cart"></i>
               </div>
-              <h3 className="font-bold text-lg mb-3 text-white">Retail Services</h3>
-              <p className="opacity-90 text-white">Customer service and retail management training</p>
+              <h3 className="font-bold text-lg mb-3 text-white">
+                Retail Services
+              </h3>
+              <p className="opacity-90 text-white">
+                Customer service and retail management training
+              </p>
             </div>
             {/* <div className="bg-gradient-maroon-golden text-white p-6 rounded-xl shadow-lg animate-fadeInUp" style={{'--stagger': 7}}>
               <div className="text-3xl mb-4 icon-bounce text-white">
@@ -148,20 +206,22 @@ const Education = () => {
         </div>
       </section>
 
-            {/* Connecting Skills */}
+      {/* Connecting Skills */}
       <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
             Connecting Skills
           </h2>
           <div className="text-center">
-            <img 
-              src="/images/Collage.jpg" 
-              alt="Connecting Skills - Various skill development programs and training activities" 
+            <img
+              src="/images/Collage.jpg"
+              alt="Connecting Skills - Various skill development programs and training activities"
               className="w-full max-w-5xl mx-auto rounded-2xl shadow-custom"
             />
             <p className="mt-8 text-gray-600 text-lg">
-              Our comprehensive skill development programs connect students with diverse career opportunities across multiple industries and sectors.
+              Our comprehensive skill development programs connect students with
+              diverse career opportunities across multiple industries and
+              sectors.
             </p>
           </div>
         </div>
@@ -169,9 +229,13 @@ const Education = () => {
 
       {/* Skill Development Objectives */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-6 gradient-text">Our Skill Development Objectives</h2>
+        <h2 className="text-4xl font-bold text-center mb-6 gradient-text">
+          Our Skill Development Objectives
+        </h2>
         <p className="text-center text-xl text-gray-600 mb-12 max-w-4xl mx-auto">
-          We aim to empower individuals with hands-on training, practical exposure, and employment-ready skills that meet the evolving demands of the textiles, fashion, and allied sectors.
+          We aim to empower individuals with hands-on training, practical
+          exposure, and employment-ready skills that meet the evolving demands
+          of the textiles, fashion, and allied sectors.
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="text-center">
@@ -179,35 +243,58 @@ const Education = () => {
               <i className="fas fa-arrow-up text-blue-600 text-2xl"></i>
             </div>
             <h3 className="font-bold text-xl mb-3">Enhancing Employability</h3>
-            <p className="text-gray-600">Building job-ready skills and competencies for immediate employment opportunities</p>
+            <p className="text-gray-600">
+              Building job-ready skills and competencies for immediate
+              employment opportunities
+            </p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-handshake text-green-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Supporting Government Skill Initiatives</h3>
-            <p className="text-gray-600">Partnering with government programs to maximize skill development impact</p>
+            <h3 className="font-bold text-xl mb-3">
+              Supporting Government Skill Initiatives
+            </h3>
+            <p className="text-gray-600">
+              Partnering with government programs to maximize skill development
+              impact
+            </p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-users text-purple-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Creating a Sustainable Talent Pipeline</h3>
-            <p className="text-gray-600">Developing continuous talent supply for different sectors and industries</p>
+            <h3 className="font-bold text-xl mb-3">
+              Creating a Sustainable Talent Pipeline
+            </h3>
+            <p className="text-gray-600">
+              Developing continuous talent supply for different sectors and
+              industries
+            </p>
           </div>
           <div className="text-center">
             <div className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-lightbulb text-red-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Promoting Self-Reliance and Entrepreneurship</h3>
-            <p className="text-gray-600">Fostering entrepreneurial mindset and self-employment opportunities</p>
+            <h3 className="font-bold text-xl mb-3">
+              Promoting Self-Reliance and Entrepreneurship
+            </h3>
+            <p className="text-gray-600">
+              Fostering entrepreneurial mindset and self-employment
+              opportunities
+            </p>
           </div>
           <div className="text-center md:col-span-2 lg:col-span-1">
             <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <i className="fas fa-cogs text-yellow-600 text-2xl"></i>
             </div>
-            <h3 className="font-bold text-xl mb-3">Developing Industry-Ready Professionals</h3>
-            <p className="text-gray-600">Training professionals who meet current industry standards and requirements</p>
+            <h3 className="font-bold text-xl mb-3">
+              Developing Industry-Ready Professionals
+            </h3>
+            <p className="text-gray-600">
+              Training professionals who meet current industry standards and
+              requirements
+            </p>
           </div>
         </div>
       </section>
@@ -257,43 +344,68 @@ const Education = () => {
 
       {/* Training Model */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Skill Training Model</h2>
-        <p className="text-center text-xl text-gray-600 mb-12">We follow a "Training-to-Employment" approach</p>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+          Our Skill Training Model
+        </h2>
+        <p className="text-center text-xl text-gray-600 mb-12">
+          We follow a "Training-to-Employment" approach
+        </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="text-center">
             <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-blue-600">1</span>
             </div>
-            <h3 className="font-bold text-lg mb-3">Industry-Centric Curriculum</h3>
-            <p className="text-gray-600 text-sm">Courses designed based on current industry requirements and standards</p>
+            <h3 className="font-bold text-lg mb-3">
+              Industry-Centric Curriculum
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Courses designed based on current industry requirements and
+              standards
+            </p>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-green-600">2</span>
             </div>
-            <h3 className="font-bold text-lg mb-3">Certified Trainers & Assessors</h3>
-            <p className="text-gray-600 text-sm">Qualified professionals with industry experience deliver high-quality training</p>
+            <h3 className="font-bold text-lg mb-3">
+              Certified Trainers & Assessors
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Qualified professionals with industry experience deliver
+              high-quality training
+            </p>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-purple-600">3</span>
             </div>
             <h3 className="font-bold text-lg mb-3">Placement / OJT Support</h3>
-            <p className="text-gray-600 text-sm">Direct placement assistance and on-the-job training opportunities</p>
+            <p className="text-gray-600 text-sm">
+              Direct placement assistance and on-the-job training opportunities
+            </p>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-red-600">4</span>
             </div>
-            <h3 className="font-bold text-lg mb-3">Entrepreneurship Mentorship</h3>
-            <p className="text-gray-600 text-sm">Guidance and support for starting own business and becoming self-employed</p>
+            <h3 className="font-bold text-lg mb-3">
+              Entrepreneurship Mentorship
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Guidance and support for starting own business and becoming
+              self-employed
+            </p>
           </div>
           <div className="text-center">
             <div className="w-20 h-20 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-4">
               <span className="text-2xl font-bold text-yellow-600">5</span>
             </div>
-            <h3 className="font-bold text-lg mb-3">Reporting & Impact Monitoring</h3>
-            <p className="text-gray-600 text-sm">Continuous tracking of training outcomes and employment success</p>
+            <h3 className="font-bold text-lg mb-3">
+              Reporting & Impact Monitoring
+            </h3>
+            <p className="text-gray-600 text-sm">
+              Continuous tracking of training outcomes and employment success
+            </p>
           </div>
         </div>
       </section>
@@ -301,29 +413,41 @@ const Education = () => {
       {/* Training Infrastructure */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Training Infrastructure</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+            Training Infrastructure
+          </h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <i className="fas fa-building text-4xl text-blue-600 mb-4"></i>
-              <h3 className="font-bold text-xl mb-4">Infrastructure & Outreach</h3>
-              <p className="text-gray-600">Fully equipped training centers at Goyal Fashions units and partner locations</p>
+              <h3 className="font-bold text-xl mb-4">
+                Infrastructure & Outreach
+              </h3>
+              <p className="text-gray-600">
+                Fully equipped training centers at Goyal Fashions units and
+                partner locations
+              </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <i className="fas fa-laptop-code text-4xl text-green-600 mb-4"></i>
               <h3 className="font-bold text-xl mb-4">Modern Facilities</h3>
-              <p className="text-gray-600">Simulation-based labs, smart classrooms, and field training</p>
+              <p className="text-gray-600">
+                Simulation-based labs, smart classrooms, and field training
+              </p>
             </div>
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <i className="fas fa-users text-4xl text-purple-600 mb-4"></i>
               <h3 className="font-bold text-xl mb-4">Community Outreach</h3>
-              <p className="text-gray-600">Strong rural outreach through women-focused and community-led mobilization</p>
+              <p className="text-gray-600">
+                Strong rural outreach through women-focused and community-led
+                mobilization
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Student Testimonials */}
-      <section className="py-20 max-w-6xl mx-auto px-8">
+      {/* <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Student & Alumni Testimonials</h2>
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-6 rounded-xl shadow-lg">
@@ -410,39 +534,53 @@ const Education = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Impact Statistics */}
       <section className="py-20 colorful-bg text-white">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Impact So Far</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">
+            Impact So Far
+          </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 text-center">
             <div>
               <div className="text-5xl font-bold mb-2 text-white">11,000+</div>
               <p className="text-xl text-white">Youth Trained</p>
-              <p className="text-sm opacity-80 text-white">Across Rajasthan and neighboring states</p>
+              <p className="text-sm opacity-80 text-white">
+                Across Rajasthan and neighboring states
+              </p>
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">100%</div>
-              <p className="text-xl text-white">Captive Employment Opportunities</p>
-              <p className="text-sm opacity-80 text-white">Through Ananta Hotels and Goyal Group Units</p>
+              <p className="text-xl text-white">
+                Captive Employment Opportunities
+              </p>
+              <p className="text-sm opacity-80 text-white">
+                Through Ananta Hotels and Goyal Group Units
+              </p>
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">100%</div>
               <p className="text-xl text-white">Placement Assistance</p>
-              <p className="text-sm opacity-80 text-white">Comprehensive job placement support for all trainees</p>
+              <p className="text-sm opacity-80 text-white">
+                Comprehensive job placement support for all trainees
+              </p>
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">500+</div>
               <p className="text-xl text-white">Women-led SHGs</p>
-              <p className="text-sm opacity-80 text-white">Development in textile packaging & stitching</p>
+              <p className="text-sm opacity-80 text-white">
+                Development in textile packaging & stitching
+              </p>
             </div>
             <div>
               <div className="text-5xl font-bold mb-2 text-white">
                 <i className="fas fa-arrow-trend-up"></i>
               </div>
               <p className="text-xl text-white">Leading Government TP</p>
-              <p className="text-sm opacity-80 text-white">Strong record under Central & State schemes</p>
+              <p className="text-sm opacity-80 text-white">
+                Strong record under Central & State schemes
+              </p>
             </div>
           </div>
         </div>
@@ -450,14 +588,18 @@ const Education = () => {
 
       {/* Government Schemes Table */}
       <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Training Under Government Schemes</h2>
+        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+          Training Under Government Schemes
+        </h2>
         <div className="overflow-x-auto">
           <table className="w-full bg-white rounded-xl shadow-lg overflow-hidden">
             <thead className="bg-gray-50">
               <tr>
                 <th className="px-6 py-4 text-left font-bold">Scheme Name</th>
                 <th className="px-6 py-4 text-left font-bold">Sector</th>
-                <th className="px-6 py-4 text-left font-bold">Beneficiaries Trained</th>
+                <th className="px-6 py-4 text-left font-bold">
+                  Beneficiaries Trained
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -465,7 +607,11 @@ const Education = () => {
                 <td className="px-6 py-4">
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
-                      <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-w-16 max-h-16 object-contain" />
+                      <img
+                        src="/images/Govt Partnership 2.jpg"
+                        alt="RSLDC"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
                     </div>
                     RSLDC – Multiple Schemes
                   </div>
@@ -477,7 +623,11 @@ const Education = () => {
                 <td className="px-6 py-4">
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
-                      <img src="/images/Govt Partnership 1.jpg" alt="NAPS" className="max-w-16 max-h-16 object-contain" />
+                      <img
+                        src="/images/Govt Partnership 1.jpg"
+                        alt="NAPS"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
                     </div>
                     NAPS (Apprenticeship)
                   </div>
@@ -489,7 +639,11 @@ const Education = () => {
                 <td className="px-6 py-4">
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
-                      <img src="/images/NaiManzil.jpg" alt="Nai Manzil" className="max-w-16 max-h-16 object-contain" />
+                      <img
+                        src="/images/NaiManzil.jpg"
+                        alt="Nai Manzil"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
                     </div>
                     Nai Manzil
                   </div>
@@ -501,7 +655,11 @@ const Education = () => {
                 <td className="px-6 py-4">
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
-                      <img src="/images/Samarth MOT.jpg" alt="Samarth" className="max-w-16 max-h-16 object-contain" />
+                      <img
+                        src="/images/Samarth MOT.jpg"
+                        alt="Samarth"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
                     </div>
                     Samarth – MoT
                   </div>
@@ -513,7 +671,11 @@ const Education = () => {
                 <td className="px-6 py-4">
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
-                      <img src="/images/Ministry of Tourism.png" alt="HSRT" className="max-w-16 max-h-16 object-contain" />
+                      <img
+                        src="/images/Ministry of Tourism.png"
+                        alt="HSRT"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
                     </div>
                     HSRT – MoT
                   </div>
@@ -524,7 +686,7 @@ const Education = () => {
             </tbody>
           </table>
         </div>
-        
+
         {/* HSRT Records Button */}
         <div className="text-center mt-12">
           <button
@@ -532,16 +694,21 @@ const Education = () => {
             className="px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             <i className="fas fa-history mr-2"></i>
-            Watch Past HSRT Records
+            Watch All Records
           </button>
         </div>
       </section>
 
       {/* HSRT Batch List */}
       {showHSRTList && (
-        <section ref={hsrtListRef} className="py-12 bg-gradient-to-br from-blue-50 to-indigo-100">
+        <section
+          ref={hsrtListRef}
+          className="py-12 bg-gradient-to-br from-blue-50 to-indigo-100"
+        >
           <div className="max-w-4xl mx-auto px-8">
-            <h2 className="text-3xl font-bold text-center mb-8 gradient-text">HSRT Records - Ministry of Tourism</h2>
+            <h2 className="text-3xl font-bold text-center mb-8 gradient-text">
+              HSRT Records - Ministry of Tourism
+            </h2>
             <div className="grid gap-4">
               {hsrtBatches.map((batch) => (
                 <div
@@ -561,59 +728,82 @@ const Education = () => {
         </section>
       )}
 
-
       {/* Government Partnerships */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">Our Government Partnerships</h2>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+            Our Government Partnerships
+          </h2>
           <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 max-w-7xl">
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
-                  <img src="/images/Govt Partnership 2.jpg" alt="RSLDC" className="max-h-28 max-w-full" />
+                  <img
+                    src="/images/Govt Partnership 2.jpg"
+                    alt="RSLDC"
+                    className="max-h-28 max-w-full"
+                  />
                 </div>
                 <p className="text-xl font-semibold">RSLDC</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg" alt="Ministry of Textile" className="max-h-28 max-w-full" />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Ministry_of_Textiles_India.svg"
+                    alt="Ministry of Textile"
+                    className="max-h-28 max-w-full"
+                  />
                 </div>
                 <p className="text-xl font-semibold">Ministry of Textiles</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/df/Ministry_of_Tourism_India.svg" alt="Ministry of Tourism" className="max-h-28 max-w-full" />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/d/df/Ministry_of_Tourism_India.svg"
+                    alt="Ministry of Tourism"
+                    className="max-h-28 max-w-full"
+                  />
                 </div>
                 <p className="text-xl font-semibold">Ministry of Tourism</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Ministry_of_Minority_Affairs.svg" alt="Ministry of Tourism" className="max-h-28 max-w-full" />
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/69/Ministry_of_Minority_Affairs.svg"
+                    alt="Ministry of Tourism"
+                    className="max-h-28 max-w-full"
+                  />
                 </div>
-                <p className="text-xl font-semibold">Ministry of Minority Affairs</p>
+                <p className="text-xl font-semibold">
+                  Ministry of Minority Affairs
+                </p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
-                  <img src="/images/Ministry of Skill Development.jpg" alt="Ministry of Skill Development" className="max-h-28 max-w-full" />
+                  <img
+                    src="/images/Ministry of Skill Development.jpg"
+                    alt="Ministry of Skill Development"
+                    className="max-h-28 max-w-full"
+                  />
                 </div>
-                <p className="text-xl font-semibold">Ministry of Skill Development</p>
+                <p className="text-xl font-semibold">
+                  Ministry of Skill Development
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
-
-       {/* GFPL Skilling Map */}
+      {/* GFPL Skilling Map */}
       <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
-          GFPL Skilling Map
+          Our Centres for Skill Training
         </h2>
         <div className="text-center">
-          <img 
-            src="/images/SkillingMap.png" 
-            alt="GFPL Skilling Map - Rajasthan" 
+          <img
+            src="/images/SkillingMap.png"
+            alt="GFPL Skilling Map - Rajasthan"
             className="w-full max-w-4xl mx-auto rounded-2xl shadow-custom"
           />
           {/* <div className="mt-8 flex flex-wrap justify-center gap-8">
@@ -652,8 +842,456 @@ const Education = () => {
             </a>
           </div> */}
           <p className="mt-8 text-gray-600">
-            Our skill development centers span across Rajasthan, providing training and employment opportunities in rural and urban areas.
+            Our skill development centers span across Rajasthan, providing
+            training and employment opportunities in rural and urban areas.
           </p>
+        </div>
+      </section>
+
+      {/* Student & Alumni Testimonials */}
+      <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
+        <div className="max-w-7xl mx-auto px-4">
+          <h2 className="text-4xl font-bold text-center mb-16 gradient-text">
+            Student & Alumni Testimonials
+          </h2>
+
+          <div className="overflow-hidden">
+            <div className="flex animate-testimonial-scroll">
+              {/* <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    P
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Priya Sharma</h4>
+                    <p className="text-sm text-gray-600">Hospitality Graduate</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "GFPL transformed my career from a village girl to working at Taj Palace, Jaipur."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Taj Palace, Jaipur</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    R
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Rahul Meena</h4>
+                    <p className="text-sm text-gray-600">Textile Specialist</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "Samarth program opened doors I never imagined. Got supervisory role within 6 months."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Goyal Fashions</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    S
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Sunita Kumari</h4>
+                    <p className="text-sm text-gray-600">Retail Manager</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "As a single mother, GFPL's training gave me stability and dignity."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Reliance Retail</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    A
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Amit Joshi</h4>
+                    <p className="text-sm text-gray-600">Solar Technician</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "Solar training helped me start my own renewable energy business."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Entrepreneur: Green Energy</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    M
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Meera Patel</h4>
+                    <p className="text-sm text-gray-600">Tourism Graduate</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "HSRT program gave me international exposure for luxury hospitality."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Leela Palace, Goa</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    P
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Priya Sharma</h4>
+                    <p className="text-sm text-gray-600">Hospitality Graduate</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "GFPL transformed my career from a village girl to working at Taj Palace, Jaipur."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Taj Palace, Jaipur</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    R
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Rahul Meena</h4>
+                    <p className="text-sm text-gray-600">Textile Specialist</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "Samarth program opened doors I never imagined. Got supervisory role within 6 months."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Goyal Fashions</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    S
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Sunita Kumari</h4>
+                    <p className="text-sm text-gray-600">Retail Manager</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "As a single mother, GFPL's training gave me stability and dignity."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Reliance Retail</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    A
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Amit Joshi</h4>
+                    <p className="text-sm text-gray-600">Solar Technician</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "Solar training helped me start my own renewable energy business."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Entrepreneur: Green Energy</p>
+              </div>
+
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                <div className="flex items-center mb-4">
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    M
+                  </div>
+                  <div>
+                    <h4 className="font-bold">Meera Patel</h4>
+                    <p className="text-sm text-gray-600">Tourism Graduate</p>
+                  </div>
+                </div>
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "HSRT program gave me international exposure for luxury hospitality."
+                </p>
+                <p className="text-blue-600 text-xs mt-2 font-semibold">Now at: Leela Palace, Goa</p>
+              </div> */}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {/* {" "} */}
+                    <img src="images/testimonials/sandeep.png" alt="Sandeep" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Sandeep</h4>{" "}
+                    <p className="text-sm text-gray-600">Junior Cook</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-golden mb-3">★★★★★</div>
+                <p className="text-gray-700 text-sm italic">
+                  "This program gave me an incredible opportunity to gain
+                  industry-specific skills and confidence."
+                </p>
+                <p className="text-maroon text-xs mt-2 font-semibold">
+                  Now at: Ananta Spa & Resort, Pushkar
+                </p>
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Bhojraj.png" alt="Bhoj Raj" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Bhoj Raj</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi III</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "From no exposure to working in a reputed hotel — this
+                  training truly changed my life."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: 5 Flowers Ananta Elite, Kota
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Ansuiya.png" alt="Anusuiya" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Anusuiya</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi III</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "The practical sessions and grooming classes boosted both my
+                  skill and self-belief."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: 5 Flowers Ananta Elite, Kota
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Naresh.png" alt="Naresh" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Naresh Kumar</h4>{" "}
+                    <p className="text-sm text-gray-600">Junior Cook</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "I’m proud to now work in a 5-star property — thanks to the
+                  skill training and support provided."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: The Ananta, Udaipur
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Pawan.png" alt="Pawan" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Pawan Kumar</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi III</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "Joining this program gave me professional growth I never
+                  thought possible."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: Lotus Ananta Elite, Kota
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Rajender.png" alt="Rajender" className="w-full h-full object-cover rounded-full" />
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Rajender</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi III</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "With the guidance I received, I’ve built a successful career
+                  in hospitality."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: Ananta Spa & Resort, Pushkar
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Manisha.png" className="w-full h-full object-cover rounded-full" alt="Manisha" />{" "}
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Manisha</h4>{" "}
+                    <p className="text-sm text-gray-600">Junior Cook</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "The supportive learning environment helped me grow personally
+                  and professionally."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: Lotus Ananta Elite, Kota
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Ritika.png" className="w-full h-full object-cover rounded-full" alt="Ritika" />{" "}
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Ritika Hansraj</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi II</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "This course gave me the confidence and expertise to work in a
+                  reputed hotel."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: 5 Flowers Ananta Elite, Kota
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/Amisha.png" className="w-full h-full object-cover rounded-full" alt="Amisha" />{" "}
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Amisha Dhanka</h4>{" "}
+                    <p className="text-sm text-gray-600">Kitchen Assistant</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "Training at GFPL gave me practical knowledge and shaped my
+                  hospitality career."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: The Baagh Ananta Elite, Ranthambore
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Multi-Cuisine Cook</p>{" "}
+              </div>{" "}
+              <div className="flex-shrink-0 w-80 mx-4 bg-white p-6 rounded-xl shadow-lg">
+                {" "}
+                <div className="flex items-center mb-4">
+                  {" "}
+                  <div className="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
+                    {" "}
+                    <img src="images/testimonials/SandeepK.png" className="w-full h-full object-cover rounded-full" alt="Sandeep" />{" "}
+                  </div>{" "}
+                  <div>
+                    {" "}
+                    <h4 className="font-bold">Sandeep Kaur</h4>{" "}
+                    <p className="text-sm text-gray-600">Commi III</p>{" "}
+                  </div>{" "}
+                </div>{" "}
+                <div className="flex text-yellow-400 mb-3">★★★★★</div>{" "}
+                <p className="text-gray-700 text-sm italic">
+                  {" "}
+                  "Professional grooming sessions improved my confidence and
+                  career prospects."{" "}
+                </p>{" "}
+                <p className="text-blue-600 text-xs mt-2 font-semibold">
+                  Now at: Radisson Blu Hotel, Jaipur
+                </p>{" "}
+                <p className="text-xs text-gray-500 mt-1">Source: Page 53</p>{" "}
+              </div>
+            </div>
+          </div>
+
+          {/* <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="text-3xl font-bold text-maroon mb-2">95%</div>
+              <div className="text-gray-600">Placement Rate</div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="text-3xl font-bold text-golden mb-2">7000+</div>
+              <div className="text-gray-600">Students Trained</div>
+            </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg">
+              <div className="text-3xl font-bold text-maroon mb-2">4.8/5</div>
+              <div className="text-gray-600">Average Rating</div>
+            </div>
+          </div> */}
         </div>
       </section>
 
@@ -664,17 +1302,18 @@ const Education = () => {
             Ready to Start Your Career?
           </h2>
           <p className="text-xl mb-8 text-gray-600">
-            Join our skill development programs and secure guaranteed employment across our business units.
+            Join our skill development programs and secure guaranteed employment
+            across our business units.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a 
-              href="/education" 
+            <a
+              href="/education"
               className="px-8 py-4 bg-maroon border-2 border-golden text-white rounded-full font-semibold hover:bg-golden hover:text-maroon transition-all duration-300"
             >
               Explore Training Programs
             </a>
-            <a 
-              href="/contact" 
+            <a
+              href="/contact"
               className="px-8 py-4 bg-golden border-2 border-maroon text-maroon rounded-full font-semibold hover:bg-maroon hover:text-white transition-all duration-300"
             >
               Contact for Jobs

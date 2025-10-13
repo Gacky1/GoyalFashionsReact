@@ -390,6 +390,24 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Testimonial Carousel Animation */
+@keyframes testimonial-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1680px);
+  }
+}
+
+.animate-testimonial-scroll {
+  animation: testimonial-scroll 25s linear infinite;
+}
+
+.animate-testimonial-scroll:hover {
+  animation-play-state: paused;
+}
+
 /* Responsive Typography */
 @media (max-width: 768px) {
   h1 {
@@ -410,5 +428,13 @@ p {
   
   .lead-text {
     font-size: 1.125rem;
+  }
+  
+  .testimonial-card {
+    width: 300px;
+  }
+  
+  .animate-scroll {
+    animation: scroll 25s linear infinite;
   }
 }
