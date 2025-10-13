@@ -89,7 +89,7 @@ const About = () => {
               Founded on 6 March 1981, Goyal Fashions Private Limited is a reputable private company
               headquartered in Jaipur, Rajasthan.Incorporated under CIN U18101RJ1981PTC018803, the
               company has grown from its textiles roots to become a flagship for a diverse group spanning textiles,
-              hospitality, solar energy,real State, dry cleaning, water bottling. and retail.
+              hospitality, solar energy, real estate, dry cleaning, water bottling, and retail.
             </p>
             <p className="text-gray-600 leading-relaxed text-justify">
               With over four decades of leadership, our promoters—
