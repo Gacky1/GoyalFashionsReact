@@ -18,8 +18,10 @@ const Home = () => {
               Unified Vision
             </span>
           </h1>
-          <p className="text-xl mb-8 text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-            India's Premier Flagship Enterprise
+          <p className="text-4xl sm:text-6xl md:text-7xl font-extrabold  mb-8 text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
+                       <span className="block text-white drop-shadow-2xl leading-tight">
+ Empowering Every Future
+ </span>
           </p>
           <Link 
             to="/about" 
