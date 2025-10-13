@@ -214,7 +214,7 @@ const Education = () => {
           </h2>
           <div className="text-center">
             <img
-              src="/images/Collage.jpg"
+              src="/images/Collage.jpeg"
               alt="Connecting Skills - Various skill development programs and training activities"
               className="w-full max-w-5xl mx-auto rounded-2xl shadow-custom"
             />
