@@ -17,17 +17,12 @@ const DirectorCarousel = () => {
     {
       quote: "Skill is the foundation of empowerment — and at Goyal Fashions, we take immense pride in being part of India's skill transformation journey. Under our Skill Development Division, we are aligned with the national vision of Skill India, empowering youth with the right training, exposure, and employment opportunities. Our programs bridge the gap between education and employability, ensuring that every learner becomes capable, confident, and career-ready. Through hands-on learning, industry collaboration, and inclusive outreach, we aim to make skill development a movement of empowerment and self-reliance. We are not just training individuals — we are shaping futures and contributing to the dream of a Skilled and Atmanirbhar Bharat.",
       name: "Mr. Ashutosh Goyal",
-      position: "Head – Skill Development Division"
+      position: "Head - Skill Development Division"
     },
     {
       quote: "Goyal Fashions is more than a garment house—it is the foundation of a multi-sector enterprise committed to India's growth. From textiles to timeless hospitality at Ananta, from clean energy to community retail spaces, we aim to build with integrity, creativity, and a future-forward mindset.",
-      name: "Mr. Ashish Goyal",
+      name: "Mr. Mohit Goyal",
       position: "Director"
-    },
-    {
-      quote: "Goyal Fashions stands as the cornerstone of a diversified enterprise built on a unified vision. From pioneering textiles to redefining hospitality with Ananta, advancing clean energy, and fostering community retail spaces — our ventures may be diverse, but our purpose remains one: building India's future with integrity, innovation, and commitment.",
-      name: "Mr. Vaibhav Gupta",
-      position: "Director – Skill Development Initiatives"
     }
   ];
 
