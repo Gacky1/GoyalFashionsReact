@@ -50,6 +50,36 @@ const BatchDetails = () => {
         "/images/Hsrt 1.4.png",
         "/images/Hsrt 1.5.png"
       ]
+    },
+    {
+      id: 2,
+      name: "SAMARTH 2021-Running",
+      year: "2021-Running",
+      date: "Ministry of Textiles Initiative",
+      headerImage: "/images/Samarth MOT.jpg",
+      description: "Goyal Fashions Private Limited is empanelled with the Ministry of Textiles, Government of India under the Samarth initiative — a flagship program focused on skilling, reskilling, and upskilling youth for the textile and apparel industry. With strong roots in the textile sector, Goyal Fashions provides industry-relevant, hands-on training that blends traditional craftsmanship with modern techniques. Under the captive employment model, we ensure trained candidates gain sustainable livelihood opportunities within the industry. Empanelled since 2021, we continue to support the vision of 'Skill India – Empowering the Nation through Skills'.",
+      courses: [
+        {
+          sno: "1",
+          courseName: "Garment Checker",
+          duration: "300 Hours",
+          students: 923
+        },
+        {
+          sno: "2",
+          courseName: "Sewing Machine Operator (SMO)",
+          duration: "300 Hours",
+          students: 5698
+        }
+      ],
+      gallery: [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+        "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=400&h=300&fit=crop"
+      ]
     }
   ];
 
@@ -84,7 +114,7 @@ const BatchDetails = () => {
           <div className="text-center text-white hero-text">
             <h1 className="text-5xl font-bold mb-4 animate-fadeInUp text-white">{batch.name}</h1>
             <p className="text-xl animate-fadeInUp text-white" style={{animationDelay: '0.3s'}}>
-              Skill Development Programme - Ministry of Tourism
+              {batch.id === 2 ? 'Skill Development Programme - Ministry of Textiles' : 'Skill Development Programme - Ministry of Tourism'}
             </p>
           </div>
         </div>
@@ -103,7 +133,7 @@ const BatchDetails = () => {
         </div>
         
         <div className="mb-8">
-          <h2 className="text-3xl font-bold mb-4 gradient-text">Hunar Se Rozgar Tak</h2>
+          <h2 className="text-3xl font-bold mb-4 gradient-text">{batch.id === 2 ? 'SAMARTH Initiative' : 'Hunar Se Rozgar Tak'}</h2>
           <p className="text-gray-600 mb-4 text-lg">{batch.date}</p>
           {batch.description ? (
             <p className="text-gray-700 leading-relaxed">{batch.description}</p>
@@ -155,7 +185,7 @@ const BatchDetails = () => {
               <div className="p-6 bg-gradient-to-br from-green-50 to-green-100 rounded-lg">
                 <h4 className="font-bold text-lg mb-3 text-green-800">Program Details</h4>
                 <p className="mb-2"><strong>Year:</strong> {batch.year}</p>
-                <p><strong>Ministry:</strong> Ministry of Tourism</p>
+                <p><strong>Ministry:</strong> {batch.id === 2 ? 'Ministry of Textiles' : 'Ministry of Tourism'}</p>
               </div>
             </div>
             

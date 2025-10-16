@@ -20,6 +20,13 @@ const Education = () => {
       date: "Current Batch",
       courses: [],
     },
+    {
+      id: 2,
+      name: "SAMARTH 2021-Running",
+      year: "2021-Running",
+      date: "Ministry of Textiles Initiative",
+      courses: [],
+    },
   ];
   return (
     <div>
@@ -36,6 +43,27 @@ const Education = () => {
           >
             Skill Development for a Stronger India
           </p>
+        </div>
+      </section>
+
+{/* Connecting Skills */}
+      <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
+        <div className="max-w-6xl mx-auto px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+            Connecting Skills
+          </h2>
+          <div className="text-center">
+            <img
+              src="/images/Collage.jpeg"
+              alt="Connecting Skills - Various skill development programs and training activities"
+              className="w-full max-w-5xl mx-auto rounded-2xl animate-fadeInUp shadow-custom"
+            />
+            <p className="mt-8 text-gray-600 text-lg">
+              Our comprehensive skill development programs connect students with
+              diverse career opportunities across multiple industries and
+              sectors.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -206,26 +234,7 @@ const Education = () => {
         </div>
       </section>
 
-      {/* Connecting Skills */}
-      <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
-        <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
-            Connecting Skills
-          </h2>
-          <div className="text-center">
-            <img
-              src="/images/Collage.jpeg"
-              alt="Connecting Skills - Various skill development programs and training activities"
-              className="w-full max-w-5xl mx-auto rounded-2xl shadow-custom"
-            />
-            <p className="mt-8 text-gray-600 text-lg">
-              Our comprehensive skill development programs connect students with
-              diverse career opportunities across multiple industries and
-              sectors.
-            </p>
-          </div>
-        </div>
-      </section>
+      
 
       {/* Skill Development Objectives */}
       <section className="py-20 max-w-6xl mx-auto px-8">
@@ -682,7 +691,7 @@ const Education = () => {
                   </div>
                 </td>
                 <td className="px-6 py-4">Textiles, Hospitality</td>
-                <td className="px-6 py-4 font-bold text-blue-600">3,00+</td>
+                <td className="px-6 py-4 font-bold text-blue-600">300+</td>
               </tr>
             </tbody>
           </table>
@@ -708,7 +717,7 @@ const Education = () => {
         >
           <div className="max-w-4xl mx-auto px-8">
             <h2 className="text-3xl font-bold text-center mb-8 gradient-text">
-              HSRT Records - Ministry of Tourism
+              Training Records - Government Initiatives
             </h2>
             <div className="grid gap-4">
               {hsrtBatches.map((batch) => (
@@ -782,7 +791,7 @@ const Education = () => {
               <div className="bg-white p-8 rounded-xl shadow-lg text-center hover:shadow-xl transition-shadow">
                 <div className="h-32 flex items-center justify-center mb-4">
                   <img
-                    src="/images/Ministry of Skill Development.jpg"
+                    src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Ministry_of_Skill_Development_and_Entrepreneurship.svg"
                     alt="Ministry of Skill Development"
                     className="max-h-28 max-w-full"
                   />
@@ -803,7 +812,7 @@ const Education = () => {
         </h2>
         <div className="text-center">
           <img
-            src="/images/SkillingMap.png"
+            src="/images/SkillingMap2.png"
             alt="GFPL Skilling Map - Rajasthan"
             className="w-full max-w-4xl mx-auto rounded-2xl shadow-custom"
           />
