@@ -811,7 +811,7 @@ const Education = () => {
         </h2>
         <div className="text-center">
           <img
-            src="/images/SkillingMap2.png"
+            src="/images/SkillingMap.png"
             alt="GFPL Skilling Map - Rajasthan"
             className="w-96 max-w-4xl mx-auto rounded-2xl shadow-custom"
           />
