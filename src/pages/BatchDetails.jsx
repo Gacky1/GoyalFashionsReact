@@ -69,16 +69,30 @@ const BatchDetails = () => {
           sno: "2",
           courseName: "Sewing Machine Operator (SMO)",
           duration: "300 Hours",
-          students: 5698
+          students: 5688
         }
       ],
       gallery: [
-        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
-        "https://images.unsplash.com/photo-1529258283598-8d6fe60b27f4?w=400&h=300&fit=crop"
+        "/images/Samarth/IMG-20251015-WA0004.jpg",
+        "/images/Samarth/IMG-20251015-WA0005.jpg",
+        "/images/Samarth/IMG-20251015-WA0006.jpg",
+        "/images/Samarth/IMG-20251015-WA0007.jpg",
+        "/images/Samarth/IMG-20251015-WA0008.jpg",
+        "/images/Samarth/IMG-20251015-WA0009.jpg",
+        "/images/Samarth/IMG-20251015-WA0010.jpg",
+        "/images/Samarth/IMG-20251015-WA0011.jpg",
+        "/images/Samarth/IMG-20251015-WA0012.jpg",
+        "/images/Samarth/IMG-20251015-WA0013.jpg",
+        "/images/Samarth/IMG-20251015-WA0014.jpg",
+        "/images/Samarth/IMG-20251015-WA0015.jpg",
+        "/images/Samarth/IMG-20251015-WA0016.jpg",
+        "/images/Samarth/IMG-20251015-WA0017.jpg",
+        "/images/Samarth/IMG-20251015-WA0018.jpg",
+        "/images/Samarth/IMG-20251015-WA0019.jpg",
+        "/images/Samarth/IMG-20251015-WA0020.jpg",
+        "/images/Samarth/IMG-20251015-WA0021.jpg",
+        "/images/Samarth/WhatsApp Image 2025-10-15 at 17.14.26_dc9fc021.jpg",
+        "/images/Samarth/WhatsApp Image 2025-10-15 at 17.50.28_e5cd68b9.jpg"
       ]
     }
   ];

@@ -68,13 +68,13 @@ const Education = () => {
       </section>
 
       {/* Intro Section */}
-      <section className="py-20 max-w-6xl mx-auto px-8">
+      {/* <section className="py-20 max-w-6xl mx-auto px-8">
         <div className="animate-fadeInUp">
           <h2 className="text-4xl font-bold text-center mb-16 gradient-text">
             Building Human Capital
           </h2>
 
-          {/* Testimonial */}
+
           <div className="bg-white border-l-4 border-maroon p-12 rounded-xl shadow-lg max-w-7xl mx-auto">
             <div className="grid md:grid-cols-12 gap-10 items-start">
               <div className="md:col-span-1 flex justify-center md:justify-start">
@@ -132,7 +132,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Skill Development Overview */}
       <section className="py-20 bg-off-white">
@@ -612,22 +612,6 @@ const Education = () => {
               </tr>
             </thead>
             <tbody>
-              <tr className="border-t">
-                <td className="px-6 py-4">
-                  <div className="flex items-center">
-                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
-                      <img
-                        src="/images/Ministry of Tourism.png"
-                        alt="HSRT"
-                        className="max-w-16 max-h-16 object-contain"
-                      />
-                    </div>
-                    HSRT – MoT
-                  </div>
-                </td>
-                <td className="px-6 py-4">Hospitality</td>
-                <td className="px-6 py-4 font-bold text-blue-600">300</td>
-              </tr>
               <tr className="border-t bg-gray-50">
                 <td className="px-6 py-4">
                   <div className="flex items-center">
@@ -638,13 +622,28 @@ const Education = () => {
                         className="max-w-16 max-h-16 object-contain"
                       />
                     </div>
-                    Samarth – MoT
+                    Samarth - MoT
                   </div>
                 </td>
                 <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
               </tr>
-
+              <tr className="border-t">
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
+                      <img
+                        src="/images/Ministry of Tourism.png"
+                        alt="HSRT"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
+                    </div>
+                    HSRT - MoT
+                  </div>
+                </td>
+                <td className="px-6 py-4">Hospitality</td>
+                <td className="px-6 py-4 font-bold text-blue-600">300</td>
+              </tr>
               <tr className="border-t">
                 <td className="px-6 py-4">
                   <div className="flex items-center">

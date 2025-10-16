@@ -5,12 +5,27 @@ const DirectorCarousel = () => {
   
   const messages = [
     {
+      quote: "At Goyal Fashions Private Limited, our foundation has always been built on trust, hard work, and a vision to contribute meaningfully to India's progress. What began as a garment manufacturing initiative has grown into a diversified enterprise, representing excellence in textiles, hospitality, energy, retail, and education. Our philosophy is simple — to create opportunities that empower people, sustain communities, and drive long-term impact. Every venture under the Goyal Fashions umbrella is guided by integrity, innovation, and the desire to build something that lasts. As we move forward, our commitment remains the same: to uphold quality, promote sustainability, and inspire growth that touches every life connected to us.",
+      name: "Mr. Mukund Sharan Goyal",
+      position: "Chairman"
+    },
+    {
+      quote: "Goyal Fashions stands as a testament to India's entrepreneurial spirit — a reflection of resilience, creativity, and responsibility. We have evolved beyond garments to become a group driven by purpose, creating meaningful change through every initiative we undertake. Our focus is not only on expanding business frontiers but also on nurturing human potential. Through our ventures in textiles, hospitality, renewable energy, and education, we aim to balance profitability with purpose and growth with giving. We envision Goyal Fashions as a platform where innovation meets impact — contributing to a skilled, self-reliant, and progressive India.",
+      name: "Mr. Sanjay Goyal",
+      position: "Managing Director"
+    },
+    {
+      quote: "Skill is the foundation of empowerment — and at Goyal Fashions, we take immense pride in being part of India's skill transformation journey. Under our Skill Development Division, we are aligned with the national vision of Skill India, empowering youth with the right training, exposure, and employment opportunities. Our programs bridge the gap between education and employability, ensuring that every learner becomes capable, confident, and career-ready. Through hands-on learning, industry collaboration, and inclusive outreach, we aim to make skill development a movement of empowerment and self-reliance. We are not just training individuals — we are shaping futures and contributing to the dream of a Skilled and Atmanirbhar Bharat.",
+      name: "Mr. Ashutosh Goyal",
+      position: "Head – Skill Development Division"
+    },
+    {
       quote: "Goyal Fashions is more than a garment house—it is the foundation of a multi-sector enterprise committed to India's growth. From textiles to timeless hospitality at Ananta, from clean energy to community retail spaces, we aim to build with integrity, creativity, and a future-forward mindset.",
       name: "Mr. Ashish Goyal",
       position: "Director"
     },
     {
-      quote: "Goyal Fashions stands as the cornerstone of a diversified enterprise built on a unified vision. From pioneering textiles to redefining hospitality with Ananta, advancing clean energy, and fostering community retail spaces — our ventures may be diverse, but our purpose remains one: building India’s future with integrity, innovation, and commitment.",
+      quote: "Goyal Fashions stands as the cornerstone of a diversified enterprise built on a unified vision. From pioneering textiles to redefining hospitality with Ananta, advancing clean energy, and fostering community retail spaces — our ventures may be diverse, but our purpose remains one: building India's future with integrity, innovation, and commitment.",
       name: "Mr. Vaibhav Gupta",
       position: "Director – Skill Development Initiatives"
     }
@@ -35,13 +50,13 @@ const DirectorCarousel = () => {
         
         {/* Navigation Buttons */}
         <button 
-          onClick={() => setCurrentSlide(currentSlide === 0 ? 1 : 0)}
+          onClick={() => setCurrentSlide(currentSlide === 0 ? messages.length - 1 : currentSlide - 1)}
           className="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-maroon text-white rounded-full hover:bg-golden transition-colors duration-300"
         >
           <i className="fas fa-chevron-left"></i>
         </button>
         <button 
-          onClick={() => setCurrentSlide(currentSlide === 0 ? 1 : 0)}
+          onClick={() => setCurrentSlide(currentSlide === messages.length - 1 ? 0 : currentSlide + 1)}
           className="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-maroon text-white rounded-full hover:bg-golden transition-colors duration-300"
         >
           <i className="fas fa-chevron-right"></i>
