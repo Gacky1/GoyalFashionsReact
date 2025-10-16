@@ -303,6 +303,97 @@ const Employment = () => {
           </div>
         </div>
 
+        {/* Water Bottling Unit */}
+        <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 flex items-center">
+              <i className="fas fa-tint text-primary mr-2"></i>
+              Water Bottling Unit
+            </h3>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              A state-of-the-art water bottling venture focused on delivering safe, pure, and mineral-enriched drinking water. The unit operates with modern purification systems ensuring high-quality standards and environmental responsibility.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Our water bottling operations create employment opportunities in <strong>production, quality control, packaging, distribution, and facility management</strong>, contributing to safe drinking water accessibility.
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-custom h-96">
+            <img 
+              src="images/WaterBottle.jpg" 
+              alt="Water Bottling Unit"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
+
+        {/* Dry Cleaning Services */}
+        <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
+          <div className="rounded-2xl overflow-hidden shadow-custom h-96 md:order-1">
+            <img 
+              src="https://black-and-white.co.in/wp-content/uploads/2025/05/Dry-Cleaning-Service-in-Phoenix-_-Sparklean-Laundry-Phoenix-%E2%80%93-Reliable-Fast-Affordable.jpg" 
+              alt="Dry Cleaning Services"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="md:order-2">
+            <h3 className="text-2xl font-semibold mb-4 flex items-center">
+              <i className="fas fa-spray-can text-primary mr-2"></i>
+              Dry Cleaning Services
+            </h3>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Our dry-cleaning business provides premium garment care using advanced, eco-friendly cleaning technologies. The service ensures fabric longevity while maintaining a professional finish for every garment.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              This division offers employment in <strong>garment processing, customer service, quality inspection, and logistics</strong>, serving both individual and corporate clients with excellence.
+            </p>
+          </div>
+        </div>
+
+        {/* Crystallise Retail Showroom */}
+        <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 flex items-center">
+              <i className="fas fa-gem text-primary mr-2"></i>
+              Crystallise Retail Showroom
+            </h3>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Crystallise is our exclusive retail showroom offering a curated selection of apparel and lifestyle products. It embodies elegance, comfort, and modern design — catering to diverse customer preferences.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The showroom creates opportunities in <strong>retail sales, visual merchandising, customer relations, and inventory management</strong>, delivering premium shopping experiences.
+            </p>
+          </div>
+          <div className="rounded-2xl overflow-hidden shadow-custom h-96">
+            <img 
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" 
+              alt="Crystallise Retail Showroom"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+        </div>
+
+        {/* Investment & Villa Sales */}
+        <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
+          <div className="rounded-2xl overflow-hidden shadow-custom h-96 md:order-1">
+            <img 
+              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&h=400&fit=crop" 
+              alt="Investment & Villa Sales"
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="md:order-2">
+            <h3 className="text-2xl font-semibold mb-4 flex items-center">
+              <i className="fas fa-home text-primary mr-2"></i>
+              Investment & Villa Sales
+            </h3>
+            <p className="text-gray-600 leading-relaxed mb-4">
+              Under our real estate vertical, we engage in premium property investment and villa sales. Each project is developed with a focus on aesthetics, comfort, and long-term value, ensuring satisfaction for every investor and homeowner.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              This division provides careers in <strong>real estate development, sales, project management, and client relations</strong>, contributing to India's growing real estate sector.
+            </p>
+          </div>
+        </div>
 
  {/* Education */}
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">

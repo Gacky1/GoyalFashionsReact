@@ -608,16 +608,49 @@ const Education = () => {
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
                       <img
-                        src="/images/Govt Partnership 2.jpg"
-                        alt="RSLDC"
+                        src="/images/Ministry of Tourism.png"
+                        alt="HSRT"
                         className="max-w-16 max-h-16 object-contain"
                       />
                     </div>
-                    RSLDC – Multiple Schemes
+                    HSRT – MoT
                   </div>
                 </td>
-                <td className="px-6 py-4">Textiles, Hospitality</td>
-                <td className="px-6 py-4 font-bold text-blue-600">3,000+</td>
+                <td className="px-6 py-4">Hospitality</td>
+                <td className="px-6 py-4 font-bold text-blue-600">300</td>
+              </tr>
+              <tr className="border-t bg-gray-50">
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
+                      <img
+                        src="/images/Samarth MOT.jpg"
+                        alt="Samarth"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
+                    </div>
+                    Samarth – MoT
+                  </div>
+                </td>
+                <td className="px-6 py-4">Textiles</td>
+                <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
+              </tr>
+
+              <tr className="border-t">
+                <td className="px-6 py-4">
+                  <div className="flex items-center">
+                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
+                      <img
+                        src="/images/NaiManzil.jpg"
+                        alt="Nai Manzil"
+                        className="max-w-16 max-h-16 object-contain"
+                      />
+                    </div>
+                    Nai Manzil
+                  </div>
+                </td>
+                <td className="px-6 py-4">Textiles</td>
+                <td className="px-6 py-4 font-bold text-blue-600">413+</td>
               </tr>
               <tr className="border-t bg-gray-50">
                 <td className="px-6 py-4">
@@ -640,48 +673,16 @@ const Education = () => {
                   <div className="flex items-center">
                     <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
                       <img
-                        src="/images/NaiManzil.jpg"
-                        alt="Nai Manzil"
+                        src="/images/Govt Partnership 2.jpg"
+                        alt="RSLDC"
                         className="max-w-16 max-h-16 object-contain"
                       />
                     </div>
-                    Nai Manzil
+                    RSLDC – Multiple Schemes
                   </div>
                 </td>
-                <td className="px-6 py-4">Textiles</td>
-                <td className="px-6 py-4 font-bold text-blue-600">413+</td>
-              </tr>
-              <tr className="border-t bg-gray-50">
-                <td className="px-6 py-4">
-                  <div className="flex items-center">
-                    <div className="w-20 h-20 flex items-center justify-center bg-white rounded-lg mr-6">
-                      <img
-                        src="/images/Samarth MOT.jpg"
-                        alt="Samarth"
-                        className="max-w-16 max-h-16 object-contain"
-                      />
-                    </div>
-                    Samarth – MoT
-                  </div>
-                </td>
-                <td className="px-6 py-4">Textiles</td>
-                <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
-              </tr>
-              <tr className="border-t">
-                <td className="px-6 py-4">
-                  <div className="flex items-center">
-                    <div className="w-20 h-20 flex items-center justify-center bg-gray-50 rounded-lg mr-6">
-                      <img
-                        src="/images/Ministry of Tourism.png"
-                        alt="HSRT"
-                        className="max-w-16 max-h-16 object-contain"
-                      />
-                    </div>
-                    HSRT – MoT
-                  </div>
-                </td>
-                <td className="px-6 py-4">Hospitality</td>
-                <td className="px-6 py-4 font-bold text-blue-600">300</td>
+                <td className="px-6 py-4">Textiles, Hospitality</td>
+                <td className="px-6 py-4 font-bold text-blue-600">3,00+</td>
               </tr>
             </tbody>
           </table>
@@ -1032,7 +1033,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {/* {" "} */}
-                    <img src="images/testimonials/sandeep.png" alt="Sandeep" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/sandeep.png"
+                      alt="Sandeep"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1056,7 +1061,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-green-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Bhojraj.png" alt="Bhoj Raj" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/Bhojraj.png"
+                      alt="Bhoj Raj"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1081,7 +1090,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Ansuiya.png" alt="Anusuiya" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/Ansuiya.png"
+                      alt="Anusuiya"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1106,7 +1119,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Naresh.png" alt="Naresh" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/Naresh.png"
+                      alt="Naresh"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1131,7 +1148,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Pawan.png" alt="Pawan" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/Pawan.png"
+                      alt="Pawan"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1156,7 +1177,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Rajender.png" alt="Rajender" className="w-full h-full object-cover rounded-full" />
+                    <img
+                      src="images/testimonials/Rajender.png"
+                      alt="Rajender"
+                      className="w-full h-full object-cover rounded-full"
+                    />
                   </div>{" "}
                   <div>
                     {" "}
@@ -1181,7 +1206,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-red-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Manisha.png" className="w-full h-full object-cover rounded-full" alt="Manisha" />{" "}
+                    <img
+                      src="images/testimonials/Manisha.png"
+                      className="w-full h-full object-cover rounded-full"
+                      alt="Manisha"
+                    />{" "}
                   </div>{" "}
                   <div>
                     {" "}
@@ -1206,7 +1235,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-blue-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Ritika.png" className="w-full h-full object-cover rounded-full" alt="Ritika" />{" "}
+                    <img
+                      src="images/testimonials/Ritika.png"
+                      className="w-full h-full object-cover rounded-full"
+                      alt="Ritika"
+                    />{" "}
                   </div>{" "}
                   <div>
                     {" "}
@@ -1231,7 +1264,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/Amisha.png" className="w-full h-full object-cover rounded-full" alt="Amisha" />{" "}
+                    <img
+                      src="images/testimonials/Amisha.png"
+                      className="w-full h-full object-cover rounded-full"
+                      alt="Amisha"
+                    />{" "}
                   </div>{" "}
                   <div>
                     {" "}
@@ -1256,7 +1293,11 @@ const Education = () => {
                   {" "}
                   <div className="w-12 h-12 bg-green-400 rounded-full flex items-center justify-center text-white font-bold mr-3">
                     {" "}
-                    <img src="images/testimonials/SandeepK.png" className="w-full h-full object-cover rounded-full" alt="Sandeep" />{" "}
+                    <img
+                      src="images/testimonials/SandeepK.png"
+                      className="w-full h-full object-cover rounded-full"
+                      alt="Sandeep"
+                    />{" "}
                   </div>{" "}
                   <div>
                     {" "}
