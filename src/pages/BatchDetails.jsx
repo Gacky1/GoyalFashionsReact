@@ -56,7 +56,7 @@ const BatchDetails = () => {
       name: "SAMARTH 2021-Running",
       year: "2021-Running",
       date: "Ministry of Textiles Initiative",
-      headerImage: "/images/Samarth MOT.jpg",
+      headerImage: "/images/SamarthBanner.png",
       description: "Goyal Fashions Private Limited is empanelled with the Ministry of Textiles, Government of India under the Samarth initiative — a flagship program focused on skilling, reskilling, and upskilling youth for the textile and apparel industry. With strong roots in the textile sector, Goyal Fashions provides industry-relevant, hands-on training that blends traditional craftsmanship with modern techniques. Under the captive employment model, we ensure trained candidates gain sustainable livelihood opportunities within the industry. Empanelled since 2021, we continue to support the vision of 'Skill India – Empowering the Nation through Skills'.",
       courses: [
         {
@@ -122,7 +122,7 @@ const BatchDetails = () => {
         <img 
           src={batch.headerImage} 
           alt={batch.name}
-          className="w-full h-full object-cover"
+          className="w-full h-full  object-cover"
         />
         <div className="absolute inset-0 bg-black/50 flex items-center justify-center">
           <div className="text-center text-white hero-text">
