@@ -45,24 +45,33 @@ const Home = () => {
       {/* PM's Vision Section */}
       <section className="py-20 bg-gradient-to-br from-blue-50 to-indigo-100">
         <div className="max-w-6xl mx-auto px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold mb-8 gradient-text">PM's Vision & Why Skills Matter</h2>
-            <div className="bg-white rounded-2xl shadow-lg p-8 max-w-4xl mx-auto">
-              <div className="text-6xl text-maroon/20 mb-6">
-                <i className="fas fa-quote-left"></i>
+          <h2 className="text-4xl font-bold text-center mb-12 gradient-text">PM's Vision & Why Skills Matter</h2>
+          <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="grid md:grid-cols-2 gap-8 items-center">
+              <div className="text-center">
+                <img 
+                  src="/images/Modi.png" 
+                  alt="PM Narendra Modi"
+                  className="w-64 h-64 mx-auto rounded-full object-cover shadow-lg"
+                />
               </div>
-              <p className="text-2xl font-semibold text-gray-700 mb-4 italic">
-                "Degrees are valuable, but skills make you indispensable."
-              </p>
-              <p className="text-lg text-gray-600 mb-6">— PM Shri Narendra Modi</p>
-              <p className="text-gray-700 leading-relaxed mb-6">
-                In today's fast-changing world, education is just the beginning — it's <strong>skill that defines success</strong>. 
-                When youth are empowered with the right skills, they don't just seek jobs — they <strong>create opportunities</strong> and contribute to nation-building.
-              </p>
-              <p className="text-gray-700 leading-relaxed">
-                At <strong>Goyal Fashions Private Limited</strong>, we proudly align with the <strong>Skill India Mission</strong>, 
-                promoting practical learning, industry-driven training, and livelihood empowerment for a <strong>Skilled and Self-Reliant India</strong>.
-              </p>
+              <div>
+                <div className="text-4xl text-maroon/20 mb-6">
+                  <i className="fas fa-quote-left"></i>
+                </div>
+                <p className="text-2xl font-semibold text-gray-700 mb-4 italic">
+                  "Degrees are valuable, but skills make you indispensable."
+                </p>
+                <p className="text-lg text-gray-600 mb-6">— PM Shri Narendra Modi</p>
+                <p className="text-gray-700 leading-relaxed mb-6">
+                  In today's fast-changing world, education is just the beginning — it's <strong>skill that defines success</strong>. 
+                  When youth are empowered with the right skills, they don't just seek jobs — they <strong>create opportunities</strong> and contribute to nation-building.
+                </p>
+                <p className="text-gray-700 leading-relaxed">
+                  At <strong>Goyal Fashions Private Limited</strong>, we proudly align with the <strong>Skill India Mission</strong>, 
+                  promoting practical learning, industry-driven training, and livelihood empowerment for a <strong>Skilled and Self-Reliant India</strong>.
+                </p>
+              </div>
             </div>
           </div>
         </div>
