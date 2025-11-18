@@ -12,7 +12,7 @@ const Employment = () => {
             Captive Employment Opportunities
           </h1>
           <p className="text-xl text-shadow-sm animate-fadeInUp" style={{animationDelay: '0.3s'}}>
-            10,000+ Direct Employment Across Our Business Units
+            Unlocking potential and creating thriving employment across our business units.
           </p>
         </div>
       </section>
@@ -338,7 +338,7 @@ const Employment = () => {
           <div className="md:order-2">
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
               <i className="fas fa-spray-can text-primary mr-2"></i>
-              Dry Cleaning Services
+              Lavender Dry Cleaning
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
               Our dry-cleaning business provides premium garment care using advanced, eco-friendly cleaning technologies. The service ensures fabric longevity while maintaining a professional finish for every garment.
@@ -349,15 +349,15 @@ const Employment = () => {
           </div>
         </div>
 
-        {/* Crystallise Retail Showroom */}
+        {/* Ananta Studio */}
         <div className="grid md:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h3 className="text-2xl font-semibold mb-4 flex items-center">
               <i className="fas fa-gem text-primary mr-2"></i>
-              Crystallise Retail Showroom
+              Ananta Studio
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Crystallise is our exclusive retail showroom offering a curated selection of apparel and lifestyle products. It embodies elegance, comfort, and modern design — catering to diverse customer preferences.
+              Ananta Studio is our exclusive retail showroom offering a curated selection of apparel and lifestyle products. It embodies elegance, comfort, and modern design — catering to diverse customer preferences.
             </p>
             <p className="text-gray-600 leading-relaxed">
               The showroom creates opportunities in <strong>retail sales, visual merchandising, customer relations, and inventory management</strong>, delivering premium shopping experiences.
@@ -366,7 +366,7 @@ const Employment = () => {
           <div className="rounded-2xl overflow-hidden shadow-custom h-96">
             <img 
               src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop" 
-              alt="Crystallise Retail Showroom"
+              alt="Ananta Studio"
               className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
             />
           </div>

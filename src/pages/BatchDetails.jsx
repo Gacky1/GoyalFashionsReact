@@ -8,8 +8,8 @@ const BatchDetails = () => {
   const hsrtBatches = [
     {
       id: 1,
-      name: "HSRT 2024-25",
-      year: "2024-25",
+      name: "HSRT 2024- Running",
+      year: "2024- Running",
       date: "Current Batch",
       headerImage: "/images/HSRT 2025 Header.png",
       description: "Goyal Fashions Private Limited is empanelled with the Ministry of Tourism, Government of India under the flagship initiative Hunar Se Rozgar Tak (HSRT) — a program dedicated to empowering youth through skill-based training in the hospitality sector. As the parent company of Ananta Hotels and Resorts, Goyal Fashions brings extensive hospitality expertise to this initiative, ensuring that each trainee receives hands-on, industry-relevant training aligned with national standards. Through the HSRT program, we aim to transform potential into performance—by nurturing young talent, especially from underprivileged communities, and preparing them for gainful employment and entrepreneurship in the hospitality and tourism industries.",
@@ -53,8 +53,8 @@ const BatchDetails = () => {
     },
     {
       id: 2,
-      name: "SAMARTH 2021-Running",
-      year: "2021-Running",
+      name: "SAMARTH 2022-Running",
+      year: "2022-Running",
       date: "Ministry of Textiles Initiative",
       headerImage: "/images/SamarthBanner.png",
       description: "Goyal Fashions Private Limited is empanelled with the Ministry of Textiles, Government of India under the Samarth initiative — a flagship program focused on skilling, reskilling, and upskilling youth for the textile and apparel industry. With strong roots in the textile sector, Goyal Fashions provides industry-relevant, hands-on training that blends traditional craftsmanship with modern techniques. Under the captive employment model, we ensure trained candidates gain sustainable livelihood opportunities within the industry. Empanelled since 2021, we continue to support the vision of 'Skill India – Empowering the Nation through Skills'.",

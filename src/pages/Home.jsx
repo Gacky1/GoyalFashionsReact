@@ -50,7 +50,7 @@ const Home = () => {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div className="text-center">
                 <img 
-                  src="/images/Modi.png" 
+                  src="/images/PmModi.jpg" 
                   alt="PM Narendra Modi"
                   className="w-64 h-64 mx-auto rounded-full object-cover shadow-lg"
                 />
@@ -100,6 +100,52 @@ const Home = () => {
               A self-reliant India where every young person has access to world-class training, mentorship, 
               and real pathways to career success.
             </p>
+          </div>
+        </div>
+      </section>
+
+       {/* Transformative Impact */}
+      <section className="py-20 colorful-bg text-white">
+        <div className="max-w-6xl mx-auto px-8">
+          <h2 className="text-4xl font-bold text-center mb-12 text-white">Transformative Impact</h2>
+          <div className="grid md:grid-cols-3 gap-8 text-center mb-12">
+            <div>
+              <div className="text-5xl font-bold mb-2 text-white">11,000+</div>
+              <p className="text-xl text-white">Learners Trained</p>
+              <p className="text-sm opacity-80 text-white">Across multiple sectors</p>
+            </div>
+            <div>
+              <div className="text-5xl font-bold mb-2 text-white">Hundreds </div>
+              <p className="text-xl text-white">of Trainers Developed</p>
+              <p className="text-sm opacity-80 text-white">Deployed nationwide</p>
+            </div>
+            <div>
+              <div className="text-5xl font-bold mb-2 text-white">100%</div>
+              <p className="text-xl text-white">Success Stories</p>
+              <p className="text-sm opacity-80 text-white">Youth employed & self-employed</p>
+            </div>
+          </div>
+          <div className="max-w-5xl mx-auto">
+            <div className="bg-white/10 rounded-2xl p-8">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div className="text-center">
+                  <img 
+                    src="/images/SanjayGoyal.png" 
+                    alt="Shri. Sanjay Goyal"
+                    className="w-full max-w-xs mx-auto rounded-xl object-contain shadow-lg border-4 border-white/20"
+                  />
+                </div>
+                <div>
+                  <div className="text-4xl text-white/30 mb-6">
+                    <i className="fas fa-quote-left"></i>
+                  </div>
+                  <p className="text-xl font-semibold text-white mb-4 italic">
+                    "The more we give importance to skill development, the more competent will be our youth."
+                  </p>
+                  <p className="text-white font-medium">— Shri. Sanjay Goyal</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -186,6 +232,8 @@ const Home = () => {
         </div>
       </section>
 
+      
+
       {/* How It Works */}
       <section className="py-20 max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">How It Works</h2>
@@ -214,40 +262,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Transformative Impact */}
-      <section className="py-20 colorful-bg text-white">
-        <div className="max-w-6xl mx-auto px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-white">Transformative Impact</h2>
-          <div className="grid md:grid-cols-3 gap-8 text-center mb-12">
-            <div>
-              <div className="text-5xl font-bold mb-2 text-white">7,000+</div>
-              <p className="text-xl text-white">Learners Trained</p>
-              <p className="text-sm opacity-80 text-white">Across multiple sectors</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2 text-white">Hundreds </div>
-              <p className="text-xl text-white">of Trainers Developed</p>
-              <p className="text-sm opacity-80 text-white">Deployed nationwide</p>
-            </div>
-            <div>
-              <div className="text-5xl font-bold mb-2 text-white">100%</div>
-              <p className="text-xl text-white">Success Stories</p>
-              <p className="text-sm opacity-80 text-white">Youth employed & self-employed</p>
-            </div>
-          </div>
-          <div className="text-center">
-            <div className="bg-white/10 rounded-2xl p-8 max-w-4xl mx-auto">
-              <div className="text-4xl text-white/30 mb-4">
-                <i className="fas fa-quote-left"></i>
-              </div>
-              <p className="text-xl font-semibold text-white mb-4 italic">
-                "The more we give importance to skill development, the more competent will be our youth."
-              </p>
-              <p className="text-white">— PM Shri Narendra Modi</p>
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Skill India Alignment */}
       <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
