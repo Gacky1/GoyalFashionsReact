@@ -26,7 +26,7 @@ const Employment = () => {
               At Goyal Fashions Private Limited, our <strong>Captive Employment Model</strong> bridges skill development with direct employment across our own businesses, ensuring job assurance for trained candidates in real-time industry environments.
             </p>
             <p className="text-gray-700 leading-relaxed text-xl max-w-4xl mx-auto">
-              With a <strong>total captive employment demand of 10,000+ employees</strong>, we provide guaranteed career opportunities across hospitality, manufacturing, retail, and education sectors.
+              With significant captive employment demand, we provide wide-ranging career opportunities across hospitality, manufacturing, retail, and education sectors.
             </p>
           </div>
         </div>
