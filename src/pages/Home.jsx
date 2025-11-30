@@ -595,24 +595,34 @@ const Home = () => {
               <p className="text-sm opacity-80 text-white">Youth employed & self-employed</p>
             </div>
           </div>
-          <div className="max-w-5xl mx-auto">
-            <div className="bg-white/10 rounded-2xl p-8">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div className="text-center">
-                  <img 
-                    src="/images/SanjayGoyal.png" 
-                    alt="Shri. Sanjay Goyal"
-                    className="w-full max-w-xs mx-auto rounded-xl object-contain shadow-lg border-4 border-white/20"
-                  />
+          <div className="max-w-6xl mx-auto">
+            <div className="bg-gradient-to-r from-white/15 to-white/5 backdrop-blur-sm rounded-3xl p-12 border border-white/20">
+              <div className="grid md:grid-cols-5 gap-12 items-center">
+                <div className="md:col-span-2 text-center">
+                  <div className="relative inline-block">
+                    <div className="absolute inset-0 bg-gradient-to-r from-golden/30 to-maroon/30 rounded-2xl blur-xl"></div>
+                    <img 
+                      src="/images/SanjayGoyal.png" 
+                      alt="Shri. Sanjay Goyal"
+                      className="relative w-full max-w-sm mx-auto rounded-2xl object-contain shadow-2xl border-4 border-white/30"
+                    />
+                  </div>
+                  <div className="mt-6 text-center">
+                    <h3 className="text-2xl font-bold text-white mb-2">Shri. Sanjay Goyal</h3>
+                    <p className="text-white/80 text-lg">Managing Director</p>
+                  </div>
                 </div>
-                <div>
-                  <div className="text-4xl text-white/30 mb-6">
+                <div className="md:col-span-3">
+                  <div className="text-6xl text-golden/40 mb-8">
                     <i className="fas fa-quote-left"></i>
                   </div>
-                  <p className="text-xl font-semibold text-white mb-4 italic">
+                  <p className="text-2xl font-semibold text-white mb-6 italic leading-relaxed">
                     "The more we give importance to skill development, the more competent will be our youth."
                   </p>
-                  <p className="text-white font-medium">— Shri. Sanjay Goyal</p>
+                  <div className="flex items-center">
+                    <div className="w-16 h-0.5 bg-golden mr-4"></div>
+                    <p className="text-white/90 font-medium text-lg">Shri. Sanjay Goyal</p>
+                  </div>
                 </div>
               </div>
             </div>
