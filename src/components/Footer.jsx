@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center">
                 <i className="fas fa-envelope text-white/80 mr-2 text-xs"></i>
-                <p className="text-white/80 text-xs">gfpl.skill@gmail.com</p>
+                <p className="text-white/80 text-xs"> <a href="mailto:gfpl.skill@gmail.com">gfpl.skill@gmail.com</a></p>
               </div>
             </div>
           </div>

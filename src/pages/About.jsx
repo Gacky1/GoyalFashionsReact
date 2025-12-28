@@ -15,7 +15,7 @@ const DirectorCarousel = () => {
       position: "Managing Director"
     },
     {
-      quote: "Goyal Fashions is more than a garment house—it is the foundation of a multi-sector enterprise committed to India's growth. From textiles to timeless hospitality at Ananta, from clean energy to community retail spaces, we aim to build with integrity, creativity, and a future-forward mindset.",
+      quote: "At Goyal Fashions, leadership is rooted in responsibility — responsibility toward people,industry, and the nation. As Director, my vision has always been to build an institution that grows not only in scale but also in values. We believe businesses must serve a larger purpose, create economic strength while uplift society. From manufacturing to diversified sectors, our journey reflects disciplined growth, ethical decision-making, and long-term thinking. We are committed to creating systems that nurture talent, respect sustainability, and generate opportunities across communities. ",
       name: "Mr. Mohit Goyal",
       position: "Director"
     },

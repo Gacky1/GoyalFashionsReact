@@ -609,10 +609,9 @@ const Education = () => {
             <thead className="bg-gray-50">
               <tr>
                 <th className="px-6 py-4 text-left font-bold">Scheme Name</th>
+                <th className="px-6 py-4 text-left font-bold">Name of Ministry</th>
                 <th className="px-6 py-4 text-left font-bold">Sector</th>
-                <th className="px-6 py-4 text-left font-bold">
-                  Beneficiaries Trained
-                </th>
+                <th className="px-6 py-4 text-left font-bold">Beneficiaries Trained</th>
               </tr>
             </thead>
             <tbody>
@@ -626,9 +625,10 @@ const Education = () => {
                         className="max-w-16 max-h-16 object-contain"
                       />
                     </div>
-                    Samarth - MoT
+                    Samarth
                   </div>
                 </td>
+                <td className="px-6 py-4">Ministry of Textiles</td>
                 <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">6,500+</td>
               </tr>
@@ -642,9 +642,10 @@ const Education = () => {
                         className="max-w-16 max-h-16 object-contain"
                       />
                     </div>
-                    HSRT - MoT
+                    HSRT
                   </div>
                 </td>
+                <td className="px-6 py-4">Ministry of Tourism</td>
                 <td className="px-6 py-4">Hospitality</td>
                 <td className="px-6 py-4 font-bold text-blue-600">300</td>
               </tr>
@@ -661,6 +662,7 @@ const Education = () => {
                     Nai Manzil
                   </div>
                 </td>
+                <td className="px-6 py-4">Ministry of Minority Affairs</td>
                 <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">413+</td>
               </tr>
@@ -677,6 +679,11 @@ const Education = () => {
                     NAPS (Apprenticeship)
                   </div>
                 </td>
+                <td className="px-6 py-4">The Ministry of Skill
+Development and
+Entrepreneurship
+(MSDE)
+</td>
                 <td className="px-6 py-4">Textiles</td>
                 <td className="px-6 py-4 font-bold text-blue-600">480+</td>
               </tr>
@@ -693,6 +700,7 @@ const Education = () => {
                     RSLDC – Multiple Schemes
                   </div>
                 </td>
+                <td className="px-6 py-4">Government of Rajasthan</td>
                 <td className="px-6 py-4">Textiles, Hospitality</td>
                 <td className="px-6 py-4 font-bold text-blue-600">3500+</td>
               </tr>

@@ -101,7 +101,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Phone</h4>
-                  <p className="text-gray-600">+91 1414820113, +919773377933</p>
+                  <p className="text-gray-600">+91 1414820113, +919773377933, <br /> +91 141 222 3060, +91 141 222 3062</p>
                 </div>
               </div>
               
@@ -111,7 +111,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Email</h4>
-                  <p className="text-gray-600">gfpl.skill@gmail.com</p>
+                  <p className="text-gray-600"> <a href="mailto:gfpl.skill@gmail.com">gfpl.skill@gmail.com</a></p>
                 </div>
               </div>
               
@@ -166,6 +166,23 @@ const Contact = () => {
                   className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
                 />
               </div>
+
+                            <div className="mb-6">
+                <label htmlFor="division" className="block mb-2 font-medium">Division of Interest</label>
+                <select
+                  id="division"
+                  name="division"
+                  value={formData.division}
+                  onChange={handleChange}
+                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
+                >
+                  <option value="">Select Division</option>
+                  <option value="Trainer">Trainer</option>
+                  <option value="Trainee">Trainee</option>
+                  <option value="Career">Work with us</option>
+                  <option value="General Inquiry">General Inquiry</option>
+                </select>
+              </div>
               
               <div className="mb-6">
                 <label htmlFor="category" className="block mb-2 font-medium">Category</label>
@@ -184,22 +201,7 @@ const Contact = () => {
                 </select>
               </div>
               
-              <div className="mb-6">
-                <label htmlFor="division" className="block mb-2 font-medium">Division of Interest</label>
-                <select
-                  id="division"
-                  name="division"
-                  value={formData.division}
-                  onChange={handleChange}
-                  className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
-                >
-                  <option value="">Select Division</option>
-                  <option value="Trainer">Trainer</option>
-                  <option value="Trainee">Trainee</option>
-                  <option value="Career">Work with us</option>
-                  <option value="General Inquiry">General Inquiry</option>
-                </select>
-              </div>
+
               
               <div className="mb-6">
                 <label htmlFor="subject" className="block mb-2 font-medium">Subject</label>
