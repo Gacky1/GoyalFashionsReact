@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import PlacesCovered from '../components/PlacesCovered';
 
 const Education = () => {
   const [showHSRTList, setShowHSRTList] = useState(false);
@@ -821,52 +822,11 @@ Entrepreneurship
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
           Our Centres for Skill Training
         </h2>
-        <div className="text-center">
-          <img
-            src="/images/SkillingMap.png"
-            alt="GFPL Skilling Map - Rajasthan"
-            className="w-96 max-w-4xl mx-auto rounded-2xl shadow-custom"
-          />
-          {/* <div className="mt-8 flex flex-wrap justify-center gap-8">
-            <div className="flex items-center">
-              <div className="w-5 h-5 bg-red-600 mr-4"></div>
-              <span><strong>Samarth Project:</strong> 17 Centers</span>
-            </div>
-            <div className="flex items-center">
-              <div className="w-5 h-5 bg-blue-600 mr-4"></div>
-              <span><strong>Hunar Se Rozgar Tak:</strong> 05 Centers</span>
-            </div>
-          </div> */}
-          {/* <div className="mt-8">
-            <a 
-              href="/WEb Upload Data GFPL_Excel Sheet.xlsx" 
-              className="download-button"
-            >
-              <svg
-                strokeLinejoin="round"
-                strokeLinecap="round"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                viewBox="0 0 24 24"
-                height="40"
-                width="40"
-                className="download-button__icon"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
-                <path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2"></path>
-                <path d="M7 11l5 5l5 -5"></path>
-                <path d="M12 4l0 12"></path>
-              </svg>
-              <span>Students trained-2024-25</span>
-            </a>
-          </div> */}
-          <p className="mt-8 text-gray-600">
-            Our skill development centers span across Rajasthan, providing
-            training and employment opportunities in rural and urban areas.
-          </p>
-        </div>
+        <PlacesCovered />
+        <p className="mt-8 text-gray-600 text-center text-lg">
+          Our skill development centers span across Rajasthan and Punjab, providing
+          training and employment opportunities in rural and urban areas.
+        </p>
       </section>
 
       {/* Student & Alumni Testimonials */}
