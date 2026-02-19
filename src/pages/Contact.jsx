@@ -93,7 +93,7 @@ const Contact = () => {
               <strong>📩Partner with Goyal Fashions</strong> – whether as a <strong> training partner, placement facilitator,
               or student</strong>, and be part of a mission that transforms lives through learning.
             </p>
-            
+{/*             
             <div className="space-y-6">
               <div className="flex items-center animate-fadeInLeft" style={{animationDelay: '0.2s'}}>
                 <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center mr-4 icon-bounce">
@@ -123,8 +123,8 @@ const Contact = () => {
                   <h4 className="font-semibold">Address</h4>
                   <p className="text-gray-600">Goyal House, 24, Ajmer Road, Jaipur, Rajasthan, 302006</p>
                 </div>
-              </div>
-            </div>
+              </div> */}
+            {/* </div> */}
           </div>
           
           <div className="bg-white/90 backdrop-blur-custom p-8 rounded-2xl shadow-custom animate-fadeInRight">

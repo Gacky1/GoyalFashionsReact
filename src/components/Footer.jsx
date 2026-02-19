@@ -64,7 +64,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="animate-fadeInUp" style={{animationDelay: '0.4s'}}>
+          {/* <div className="animate-fadeInUp" style={{animationDelay: '0.4s'}}>
             <h3 className="text-lg font-bold mb-2 text-white">Contact Info</h3>
             <div className="space-y-2">
               <div className="flex items-start">
@@ -83,8 +83,9 @@ const Footer = () => {
                 <p className="text-white/80 text-xs"> <a href="mailto:gfpl.skill@gmail.com">gfpl.skill@gmail.com</a></p>
               </div>
             </div>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
+        
 
         {/* Bottom Section */}
         <div className="border-t border-white/20 pt-4 animate-fadeInUp" style={{animationDelay: '0.6s'}}>
