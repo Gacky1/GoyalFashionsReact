@@ -268,7 +268,7 @@ const Contact = () => {
       
 
       {/* Map Section */}
-      <section className="py-20 max-w-4xl mx-auto px-8">
+      {/* <section className="py-20 max-w-4xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text animate-fadeInUp">
           Find Us
         </h2>
@@ -288,7 +288,7 @@ const Contact = () => {
             <p className="text-sm text-gray-600">24, Goyal House, Ajmer Road, Jaipur - 302006</p>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };
