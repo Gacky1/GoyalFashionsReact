@@ -168,7 +168,7 @@ const Contact = () => {
               </div>
 
                             <div className="mb-6">
-                <label htmlFor="division" className="block mb-2 font-medium">Division of Interest</label>
+                <label htmlFor="division" className="block mb-2 font-medium">Role of Interest</label>
                 <select
                   id="division"
                   name="division"
@@ -176,7 +176,7 @@ const Contact = () => {
                   onChange={handleChange}
                   className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
                 >
-                  <option value="">Select Division</option>
+                  <option value="">Select</option>
                   <option value="Trainer">Trainer</option>
                   <option value="Trainee">Trainee</option>
                   <option value="Career">Work with us</option>
@@ -185,7 +185,7 @@ const Contact = () => {
               </div>
               
               <div className="mb-6">
-                <label htmlFor="category" className="block mb-2 font-medium">Category</label>
+                <label htmlFor="category" className="block mb-2 font-medium">Sector of Skill Development</label>
                 <select
                   id="category"
                   name="category"
@@ -193,7 +193,7 @@ const Contact = () => {
                   onChange={handleChange}
                   className="w-full p-4 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none transition-colors duration-300"
                 >
-                  <option value="">Select Category</option>
+                  <option value="">Select</option>
                   <option value="Retail">Retail</option>
                   <option value="Hospitality">Hospitality</option>
                   <option value="Real Estate">Real Estate</option>

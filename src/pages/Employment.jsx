@@ -454,7 +454,7 @@ const Employment = () => {
       </section>
 
      {/* Division Contacts */}
-      <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
+      {/* <section className="py-20 bg-gradient-to-br from-red-50 to-yellow-50">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-4 gradient-text animate-fadeInUp">
             Division Contacts
@@ -577,10 +577,10 @@ const Employment = () => {
                 Learn More
               </a>
             </div>
-          </div>
+          </div> */}
           
           {/* Quick Contact CTA */}
-          <div className="mt-16 text-center">
+          {/* <div className="mt-16 text-center">
             <div className="bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto">
               <h3 className="text-2xl font-bold mb-4 text-maroon">Need Immediate Assistance?</h3>
               <p className="text-gray-600 mb-6">Our team is ready to help you find the right opportunity or answer your questions.</p>
@@ -603,7 +603,7 @@ const Employment = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 text-center">

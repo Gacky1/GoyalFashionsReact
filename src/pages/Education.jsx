@@ -21,13 +21,13 @@ const Education = () => {
       date: "Hunar Se Rozgar Tak Initiative",
       courses: [],
     },
-    {
-      id: 2,
-      name: "SAMARTH 2022-Running",
-      year: "2022-Running",
-      date: "Ministry of Textiles Initiative",
-      courses: [],
-    },
+    // {
+    //   id: 2,
+    //   name: "SAMARTH 2022-Running",
+    //   year: "2022-Running",
+    //   date: "Ministry of Textiles Initiative",
+    //   courses: [],
+    // },
   ];
   return (
     <div>
@@ -601,8 +601,8 @@ const Education = () => {
       </section>
 
       {/* Government Schemes Table */}
-      <section className="py-20 max-w-6xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
+       <section className="py-20 max-w-6xl mx-auto px-8">
+      {/*  <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
           Training Under Government Schemes
         </h2>
         <div className="overflow-x-auto">
@@ -707,7 +707,7 @@ Entrepreneurship
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
 
         {/* HSRT Records Button */}
         <div className="text-center mt-12">
@@ -751,7 +751,7 @@ Entrepreneurship
       )}
 
       {/* Government Partnerships */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="max-w-6xl mx-auto px-8">
           <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
             Our Government Partnerships
@@ -815,7 +815,7 @@ Entrepreneurship
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* GFPL Skilling Map */}
       <section className="py-20 max-w-6xl mx-auto px-8">
