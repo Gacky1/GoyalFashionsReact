@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import PlacesCovered from '../components/PlacesCovered';
 
 const Education = () => {
   const [showHSRTList, setShowHSRTList] = useState(false);
@@ -36,7 +35,7 @@ const Education = () => {
         <div className="absolute inset-0 bg-black/30 z-10"></div>
         <div className="z-20 max-w-4xl px-8 hero-text">
           <h1 className=" text-4xl md:text-5xl font-bold text-stroke text-shadow mb-4 animate-fadeInUp">
-            Empowering People, Enabling Progress
+            Empowering Peopoutle, Enabling Progress
           </h1>
           <p
             className="text-xl text-shadow-sm animate-fadeInUp"
@@ -822,11 +821,17 @@ Entrepreneurship
         <h2 className="text-4xl font-bold text-center mb-12 gradient-text">
           Our Centres for Skill Training
         </h2>
-        <PlacesCovered />
-        <p className="mt-8 text-gray-600 text-center text-lg">
-          Our skill development centers span across Rajasthan and Punjab, providing
-          training and employment opportunities in rural and urban areas.
-        </p>
+        <div className="text-center">
+          <img
+            src="/images/India Tp.png"
+            alt="GFPL Skill Training Centers across India"
+            className="w-full max-w-4xl mx-auto rounded-2xl shadow-custom"
+          />
+          <p className="mt-8 text-gray-600 text-lg">
+            Our skill development centers span across Rajasthan and Punjab, providing
+            training and employment opportunities in rural and urban areas.
+          </p>
+        </div>
       </section>
 
       {/* Student & Alumni Testimonials */}
