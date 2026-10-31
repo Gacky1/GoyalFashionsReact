@@ -10,6 +10,11 @@ import Employment from './pages/Employment';
 import Contact from './pages/Contact';
 import BatchDetails from './pages/BatchDetails';
 import NotFound from './pages/NotFound';
+import ServerConnectionError from './pages/ServerConnectionError';
+
+// Set to true to display the hosting connection error / system check page.
+// Set to false to restore regular website operations.
+const IS_MAINTENANCE_MODE = true;
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -31,6 +36,11 @@ function App() {
 
     return () => clearTimeout(timer);
   }, []);
+
+  // When maintenance / system hold mode is active, display the server connection error
+  if (IS_MAINTENANCE_MODE) {
+    return <ServerConnectionError />;
+  }
 
   if (loading) {
     return <Loader />;
